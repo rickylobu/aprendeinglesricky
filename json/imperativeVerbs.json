@@ -1,0 +1,544 @@
+{
+    "imperativeVerbs": [
+        {
+            "IdVerbo": 1,
+            "PalabraIngles": "speak",
+            "TraduccionEsp": "hablar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Speak louder, please.",
+            "EjemploEsp": "¡Habla más alto, por favor!"
+        },
+        {
+            "IdVerbo": 2,
+            "PalabraIngles": "listen",
+            "TraduccionEsp": "escuchar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Listen to the music carefully.",
+            "EjemploEsp": "Escucha la música cuidadosamente."
+        },
+        {
+            "IdVerbo": 3,
+            "PalabraIngles": "write",
+            "TraduccionEsp": "escribir",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Write your name on the paper.",
+            "EjemploEsp": "Escribe tu nombre en el papel."
+        },
+        {
+            "IdVerbo": 4,
+            "PalabraIngles": "read",
+            "TraduccionEsp": "leer",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Read this book for your assignment.",
+            "EjemploEsp": "Lee este libro para tu tarea."
+        },
+        {
+            "IdVerbo": 5,
+            "PalabraIngles": "eat",
+            "TraduccionEsp": "comer",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Eat your vegetables.",
+            "EjemploEsp": "Come tus verduras."
+        },
+        {
+            "IdVerbo": 6,
+            "PalabraIngles": "drink",
+            "TraduccionEsp": "beber",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Drink water after exercise.",
+            "EjemploEsp": "Bebe agua después del ejercicio."
+        },
+        {
+            "IdVerbo": 7,
+            "PalabraIngles": "learn",
+            "TraduccionEsp": "aprender",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Learn English grammar.",
+            "EjemploEsp": "Aprende gramática inglesa."
+        },
+        {
+            "IdVerbo": 8,
+            "PalabraIngles": "teach",
+            "TraduccionEsp": "enseñar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Teach your friend how to play guitar.",
+            "EjemploEsp": "Enseña a tu amigo cómo tocar la guitarra."
+        },
+        {
+            "IdVerbo": 9,
+            "PalabraIngles": "run",
+            "TraduccionEsp": "correr",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Run a mile every morning.",
+            "EjemploEsp": "Corre una milla cada mañana."
+        },
+        {
+            "IdVerbo": 10,
+            "PalabraIngles": "walk",
+            "TraduccionEsp": "caminar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Walk your dog in the park.",
+            "EjemploEsp": "Camina a tu perro en el parque."
+        },
+        {
+            "IdVerbo": 11,
+            "PalabraIngles": "stop",
+            "TraduccionEsp": "parar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Stop at the red light.",
+            "EjemploEsp": "Para en el semáforo rojo."
+        },
+        {
+            "IdVerbo": 12,
+            "PalabraIngles": "wait",
+            "TraduccionEsp": "esperar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Wait for the bus at the station.",
+            "EjemploEsp": "Espera el autobús en la estación."
+        },
+        {
+            "IdVerbo": 13,
+            "PalabraIngles": "start",
+            "TraduccionEsp": "empezar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Start the engine before driving.",
+            "EjemploEsp": "Empieza el motor antes de conducir."
+        },
+        {
+            "IdVerbo": 14,
+            "PalabraIngles": "finish",
+            "TraduccionEsp": "terminar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Finish your homework before dinner.",
+            "EjemploEsp": "Termina tu tarea antes de cenar."
+        },
+        {
+            "IdVerbo": 15,
+            "PalabraIngles": "study",
+            "TraduccionEsp": "estudiar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Study for your exams.",
+            "EjemploEsp": "Estudia para tus exámenes."
+        },
+        {
+            "IdVerbo": 16,
+            "PalabraIngles": "practice",
+            "TraduccionEsp": "practicar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Practice English every day.",
+            "EjemploEsp": "Practica inglés todos los días."
+        },
+        {
+            "IdVerbo": 17,
+            "PalabraIngles": "dance",
+            "TraduccionEsp": "bailar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Dance at the party tonight.",
+            "EjemploEsp": "Baila en la fiesta esta noche."
+        },
+        {
+            "IdVerbo": 18,
+            "PalabraIngles": "sing",
+            "TraduccionEsp": "cantar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Sing your favorite song loudly.",
+            "EjemploEsp": "Canta tu canción favorita en voz alta."
+        },
+        {
+            "IdVerbo": 19,
+            "PalabraIngles": "play",
+            "TraduccionEsp": "jugar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Play chess with your friend.",
+            "EjemploEsp": "Juega al ajedrez con tu amigo."
+        },
+        {
+            "IdVerbo": 20,
+            "PalabraIngles": "work",
+            "TraduccionEsp": "trabajar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Work hard to achieve your goals.",
+            "EjemploEsp": "Trabaja duro para alcanzar tus metas."
+        },
+        {
+            "IdVerbo": 21,
+            "PalabraIngles": "relax",
+            "TraduccionEsp": "relajarse",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Relax on the weekend.",
+            "EjemploEsp": "Relájate durante el fin de semana."
+        },
+        {
+            "IdVerbo": 22,
+            "PalabraIngles": "clean",
+            "TraduccionEsp": "limpiar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Clean your room every week.",
+            "EjemploEsp": "Limpia tu habitación cada semana."
+        },
+        {
+            "IdVerbo": 23,
+            "PalabraIngles": "brush",
+            "TraduccionEsp": "cepillar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Brush your teeth before bedtime.",
+            "EjemploEsp": "Cepilla tus dientes antes de dormir."
+        },
+        {
+            "IdVerbo": 24,
+            "PalabraIngles": "buy",
+            "TraduccionEsp": "comprar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Buy groceries for the week.",
+            "EjemploEsp": "Compra alimentos para la semana."
+        },
+        {
+            "IdVerbo": 25,
+            "PalabraIngles": "sell",
+            "TraduccionEsp": "vender",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Sell your old books online.",
+            "EjemploEsp": "Vende tus libros viejos en línea."
+        },
+        {
+            "IdVerbo": 26,
+            "PalabraIngles": "drive",
+            "TraduccionEsp": "conducir",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Drive carefully on the highway.",
+            "EjemploEsp": "Conduce con cuidado en la autopista."
+        },
+        {
+            "IdVerbo": 27,
+            "PalabraIngles": "travel",
+            "TraduccionEsp": "viajar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Travel to new places every year.",
+            "EjemploEsp": "Viaja a lugares nuevos cada año."
+        },
+        {
+            "IdVerbo": 28,
+            "PalabraIngles": "swim",
+            "TraduccionEsp": "nadar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Swim in the pool for exercise.",
+            "EjemploEsp": "Nada en la piscina para hacer ejercicio."
+        },
+        {
+            "IdVerbo": 29,
+            "PalabraIngles": "sleep",
+            "TraduccionEsp": "dormir",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Sleep for at least 8 hours each night.",
+            "EjemploEsp": "Duerme al menos 8 horas cada noche."
+        },
+        {
+            "IdVerbo": 30,
+            "PalabraIngles": "wake",
+            "TraduccionEsp": "despertar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Wake up early to start your day.",
+            "EjemploEsp": "Despiértate temprano para empezar tu día."
+        },
+        {
+            "IdVerbo": 31,
+            "PalabraIngles": "open",
+            "TraduccionEsp": "abrir",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Open the door for fresh air.",
+            "EjemploEsp": "Abre la puerta para que entre aire fresco."
+        },
+        {
+            "IdVerbo": 32,
+            "PalabraIngles": "close",
+            "TraduccionEsp": "cerrar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Close the window before leaving.",
+            "EjemploEsp": "Cierra la ventana antes de irte."
+        },
+        {
+            "IdVerbo": 33,
+            "PalabraIngles": "invite",
+            "TraduccionEsp": "invitar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Invite your friends to the party.",
+            "EjemploEsp": "Invita a tus amigos a la fiesta."
+        },
+        {
+            "IdVerbo": 34,
+            "PalabraIngles": "visit",
+            "TraduccionEsp": "visitar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Visit museums during the weekend.",
+            "EjemploEsp": "Visita museos durante el fin de semana."
+        },
+        {
+            "IdVerbo": 35,
+            "PalabraIngles": "call",
+            "TraduccionEsp": "llamar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Call your family every week.",
+            "EjemploEsp": "Llama a tu familia cada semana."
+        },
+        {
+            "IdVerbo": 36,
+            "PalabraIngles": "answer",
+            "TraduccionEsp": "responder",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Answer the phone when it rings.",
+            "EjemploEsp": "Responde al teléfono cuando suene."
+        },
+        {
+            "IdVerbo": 37,
+            "PalabraIngles": "ask",
+            "TraduccionEsp": "preguntar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Ask questions to learn more.",
+            "EjemploEsp": "Pregunta para aprender más."
+        },
+        {
+            "IdVerbo": 38,
+            "PalabraIngles": "answer",
+            "TraduccionEsp": "contestar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Answer the quiz questions.",
+            "EjemploEsp": "Contesta las preguntas del cuestionario."
+        },
+        {
+            "IdVerbo": 39,
+            "PalabraIngles": "watch",
+            "TraduccionEsp": "ver",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Watch a movie with your friends.",
+            "EjemploEsp": "Ve una película con tus amigos."
+        },
+        {
+            "IdVerbo": 40,
+            "PalabraIngles": "play",
+            "TraduccionEsp": "jugar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Play video games for fun.",
+            "EjemploEsp": "Juega videojuegos por diversión."
+        },
+        {
+            "IdVerbo": 41,
+            "PalabraIngles": "buy",
+            "TraduccionEsp": "comprar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Buy a gift for your friend's birthday.",
+            "EjemploEsp": "Compra un regalo para el cumpleaños de tu amigo."
+        },
+        {
+            "IdVerbo": 42,
+            "PalabraIngles": "sell",
+            "TraduccionEsp": "vender",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Sell unused items online.",
+            "EjemploEsp": "Vende artículos no utilizados en línea."
+        },
+        {
+            "IdVerbo": 43,
+            "PalabraIngles": "wear",
+            "TraduccionEsp": "usar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Wear comfortable shoes for the hike.",
+            "EjemploEsp": "Usa zapatos cómodos para la caminata."
+        },
+        {
+            "IdVerbo": 44,
+            "PalabraIngles": "cook",
+            "TraduccionEsp": "cocinar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Cook a delicious meal for your family.",
+            "EjemploEsp": "Cocina una comida deliciosa para tu familia."
+        },
+        {
+            "IdVerbo": 45,
+            "PalabraIngles": "eat",
+            "TraduccionEsp": "comer",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Eat a balanced diet for good health.",
+            "EjemploEsp": "Come una dieta equilibrada para tener buena salud."
+        },
+        {
+            "IdVerbo": 46,
+            "PalabraIngles": "drink",
+            "TraduccionEsp": "beber",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Drink water throughout the day.",
+            "EjemploEsp": "Bebe agua durante todo el día."
+        },
+        {
+            "IdVerbo": 47,
+            "PalabraIngles": "clean",
+            "TraduccionEsp": "limpiar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Clean your room before guests arrive.",
+            "EjemploEsp": "Limpia tu habitación antes de que lleguen los invitados."
+        },
+        {
+            "IdVerbo": 48,
+            "PalabraIngles": "organize",
+            "TraduccionEsp": "organizar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Organize your desk for better productivity.",
+            "EjemploEsp": "Organiza tu escritorio para una mejor productividad."
+        },
+        {
+            "IdVerbo": 49,
+            "PalabraIngles": "exercise",
+            "TraduccionEsp": "hacer ejercicio",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Exercise regularly for a healthy lifestyle.",
+            "EjemploEsp": "Haz ejercicio regularmente para un estilo de vida saludable."
+        },
+        {
+            "IdVerbo": 50,
+            "PalabraIngles": "meditate",
+            "TraduccionEsp": "meditar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Meditate for mental clarity.",
+            "EjemploEsp": "Medita para claridad mental."
+        },
+        {
+            "IdVerbo": 51,
+            "PalabraIngles": "create",
+            "TraduccionEsp": "crear",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Create a piece of art with your imagination.",
+            "EjemploEsp": "Crea una obra de arte con tu imaginación."
+        },
+        {
+            "IdVerbo": 52,
+            "PalabraIngles": "imagine",
+            "TraduccionEsp": "imaginar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Imagine a world without boundaries.",
+            "EjemploEsp": "Imagina un mundo sin límites."
+        },
+        {
+            "IdVerbo": 53,
+            "PalabraIngles": "dream",
+            "TraduccionEsp": "soñar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Dream big and pursue your goals.",
+            "EjemploEsp": "Sueña en grande y persigue tus metas."
+        },
+        {
+            "IdVerbo": 54,
+            "PalabraIngles": "laugh",
+            "TraduccionEsp": "reír",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Laugh heartily with friends.",
+            "EjemploEsp": "Ríe con ganas con tus amigos."
+        },
+        {
+            "IdVerbo": 55,
+            "PalabraIngles": "cry",
+            "TraduccionEsp": "llorar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Cry when you need to let your emotions out.",
+            "EjemploEsp": "Llora cuando necesites expresar tus emociones."
+        },
+        {
+            "IdVerbo": 56,
+            "PalabraIngles": "smile",
+            "TraduccionEsp": "sonreír",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Smile at strangers to spread positivity.",
+            "EjemploEsp": "Sonríe a los desconocidos para difundir positividad."
+        },
+        {
+            "IdVerbo": 57,
+            "PalabraIngles": "apologize",
+            "TraduccionEsp": "disculparse",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Apologize when you make a mistake.",
+            "EjemploEsp": "Disculpate cuando cometas un error."
+        },
+        {
+            "IdVerbo": 58,
+            "PalabraIngles": "forgive",
+            "TraduccionEsp": "perdonar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Forgive others to find inner peace.",
+            "EjemploEsp": "Perdona a los demás para encontrar paz interior."
+        },
+        {
+            "IdVerbo": 59,
+            "PalabraIngles": "thank",
+            "TraduccionEsp": "agradecer",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Thank people for their kindness.",
+            "EjemploEsp": "Agradece a las personas por su amabilidad."
+        },
+        {
+            "IdVerbo": 60,
+            "PalabraIngles": "enjoy",
+            "TraduccionEsp": "disfrutar",
+            "TipoPalabraIngles": "verb",
+            "TipoPalabraEsp": "verbo",
+            "EjemploIngles": "Enjoy the little moments in life.",
+            "EjemploEsp": "Disfruta de los pequeños momentos de la vida."
+        }
+    ]
+}

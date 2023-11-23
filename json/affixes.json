@@ -1,0 +1,544 @@
+{
+    "affixes": [
+        {
+            "IdAffixes": 1,
+            "PalabraIngles": "un",
+            "TraduccionEsp": "do",
+            "TipoPalabraIngles": "prefix",
+            "TipoPalabraEsp": "prefijo",
+            "EjemploIngles": "undo",
+            "EjemploEsp": "deshacer"
+        },
+        {
+            "IdAffixes": 2,
+            "PalabraIngles": "friend",
+            "TraduccionEsp": "ship",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "friendship",
+            "EjemploEsp": "amistad"
+        },
+        {
+            "IdAffixes": 3,
+            "PalabraIngles": "happy",
+            "TraduccionEsp": "ness",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "happiness",
+            "EjemploEsp": "felicidad"
+        },
+        {
+            "IdAffixes": 4,
+            "PalabraIngles": "re",
+            "TraduccionEsp": "again",
+            "TipoPalabraIngles": "prefix",
+            "TipoPalabraEsp": "prefijo",
+            "EjemploIngles": "redo",
+            "EjemploEsp": "repetir"
+        },
+        {
+            "IdAffixes": 5,
+            "PalabraIngles": "act",
+            "TraduccionEsp": "ive",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "active",
+            "EjemploEsp": "activo"
+        },
+        {
+            "IdAffixes": 6,
+            "PalabraIngles": "beauty",
+            "TraduccionEsp": "ful",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "beautiful",
+            "EjemploEsp": "hermoso"
+        },
+        {
+            "IdAffixes": 7,
+            "PalabraIngles": "slow",
+            "TraduccionEsp": "ly",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "slowly",
+            "EjemploEsp": "lentamente"
+        },
+        {
+            "IdAffixes": 8,
+            "PalabraIngles": "nation",
+            "TraduccionEsp": "al",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "national",
+            "EjemploEsp": "nacional"
+        },
+        {
+            "IdAffixes": 9,
+            "PalabraIngles": "kind",
+            "TraduccionEsp": "ness",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "kindness",
+            "EjemploEsp": "bondad"
+        },
+        {
+            "IdAffixes": 10,
+            "PalabraIngles": "mis",
+            "TraduccionEsp": "under",
+            "TipoPalabraIngles": "prefix",
+            "TipoPalabraEsp": "prefijo",
+            "EjemploIngles": "misunderstand",
+            "EjemploEsp": "malentender"
+        },
+        {
+            "IdAffixes": 11,
+            "PalabraIngles": "employ",
+            "TraduccionEsp": "ment",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "employment",
+            "EjemploEsp": "empleo"
+        },
+        {
+            "IdAffixes": 12,
+            "PalabraIngles": "educate",
+            "TraduccionEsp": "ion",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "education",
+            "EjemploEsp": "educación"
+        },
+        {
+            "IdAffixes": 13,
+            "PalabraIngles": "trans",
+            "TraduccionEsp": "ition",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "transition",
+            "EjemploEsp": "transición"
+        },
+        {
+            "IdAffixes": 14,
+            "PalabraIngles": "self",
+            "TraduccionEsp": "ish",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "selfish",
+            "EjemploEsp": "egoísta"
+        },
+        {
+            "IdAffixes": 15,
+            "PalabraIngles": "prevent",
+            "TraduccionEsp": "ion",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "prevention",
+            "EjemploEsp": "prevención"
+        },
+        {
+            "IdAffixes": 16,
+            "PalabraIngles": "in",
+            "TraduccionEsp": "able",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "inevitable",
+            "EjemploEsp": "inevitable"
+        },
+        {
+            "IdAffixes": 17,
+            "PalabraIngles": "do",
+            "TraduccionEsp": "er",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "doer",
+            "EjemploEsp": "hacedor"
+        },
+        {
+            "IdAffixes": 18,
+            "PalabraIngles": "under",
+            "TraduccionEsp": "neath",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "underneath",
+            "EjemploEsp": "debajo de"
+        },
+        {
+            "IdAffixes": 19,
+            "PalabraIngles": "man",
+            "TraduccionEsp": "ly",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "manly",
+            "EjemploEsp": "varonil"
+        },
+        {
+            "IdAffixes": 20,
+            "PalabraIngles": "light",
+            "TraduccionEsp": "en",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "lighten",
+            "EjemploEsp": "iluminar"
+        },
+        {
+            "IdAffixes": 21,
+            "PalabraIngles": "over",
+            "TraduccionEsp": "come",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "overcome",
+            "EjemploEsp": "superar"
+        },
+        {
+            "IdAffixes": 22,
+            "PalabraIngles": "know",
+            "TraduccionEsp": "ledge",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "knowledge",
+            "EjemploEsp": "conocimiento"
+        },
+        {
+            "IdAffixes": 23,
+            "PalabraIngles": "un",
+            "TraduccionEsp": "lock",
+            "TipoPalabraIngles": "prefix",
+            "TipoPalabraEsp": "prefijo",
+            "EjemploIngles": "unlock",
+            "EjemploEsp": "desbloquear"
+        },
+        {
+            "IdAffixes": 24,
+            "PalabraIngles": "re",
+            "TraduccionEsp": "verse",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "revert",
+            "EjemploEsp": "revertir"
+        },
+        {
+            "IdAffixes": 25,
+            "PalabraIngles": "dis",
+            "TraduccionEsp": "like",
+            "TipoPalabraIngles": "prefix",
+            "TipoPalabraEsp": "prefijo",
+            "EjemploIngles": "dislike",
+            "EjemploEsp": "no gustar"
+        },
+        {
+            "IdAffixes": 26,
+            "PalabraIngles": "discourage",
+            "TraduccionEsp": "ment",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "discouragement",
+            "EjemploEsp": "desaliento"
+        },
+        {
+            "IdAffixes": 27,
+            "PalabraIngles": "super",
+            "TraduccionEsp": "visor",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "supervisor",
+            "EjemploEsp": "supervisor"
+        },
+        {
+            "IdAffixes": 28,
+            "PalabraIngles": "expand",
+            "TraduccionEsp": "able",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "expandable",
+            "EjemploEsp": "expansible"
+        },
+        {
+            "IdAffixes": 29,
+            "PalabraIngles": "multi",
+            "TraduccionEsp": "ple",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "multiple",
+            "EjemploEsp": "múltiple"
+        },
+        {
+            "IdAffixes": 30,
+            "PalabraIngles": "un",
+            "TraduccionEsp": "cover",
+            "TipoPalabraIngles": "prefix",
+            "TipoPalabraEsp": "prefijo",
+            "EjemploIngles": "uncover",
+            "EjemploEsp": "descubrir"
+        },
+        {
+            "IdAffixes": 31,
+            "PalabraIngles": "be",
+            "TraduccionEsp": "come",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "become",
+            "EjemploEsp": "convertirse"
+        },
+        {
+            "IdAffixes": 32,
+            "PalabraIngles": "fore",
+            "TraduccionEsp": "cast",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "forecast",
+            "EjemploEsp": "pronóstico"
+        },
+        {
+            "IdAffixes": 33,
+            "PalabraIngles": "un",
+            "TraduccionEsp": "fold",
+            "TipoPalabraIngles": "prefix",
+            "TipoPalabraEsp": "prefijo",
+            "EjemploIngles": "unfold",
+            "EjemploEsp": "desplegar"
+        },
+        {
+            "IdAffixes": 34,
+            "PalabraIngles": "re",
+            "TraduccionEsp": "act",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "react",
+            "EjemploEsp": "reaccionar"
+        },
+        {
+            "IdAffixes": 35,
+            "PalabraIngles": "tri",
+            "TraduccionEsp": "angle",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "triangle",
+            "EjemploEsp": "triángulo"
+        },
+        {
+            "IdAffixes": 36,
+            "PalabraIngles": "de",
+            "TraduccionEsp": "struct",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "destruct",
+            "EjemploEsp": "destruir"
+        },
+        {
+            "IdAffixes": 37,
+            "PalabraIngles": "ex",
+            "TraduccionEsp": "pose",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "expose",
+            "EjemploEsp": "exponer"
+        },
+        {
+            "IdAffixes": 38,
+            "PalabraIngles": "un",
+            "TraduccionEsp": "plug",
+            "TipoPalabraIngles": "prefix",
+            "TipoPalabraEsp": "prefijo",
+            "EjemploIngles": "unplug",
+            "EjemploEsp": "desenchufar"
+        },
+        {
+            "IdAffixes": 39,
+            "PalabraIngles": "emotion",
+            "TraduccionEsp": "al",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "emotional",
+            "EjemploEsp": "emocional"
+        },
+        {
+            "IdAffixes": 40,
+            "PalabraIngles": "pre",
+            "TraduccionEsp": "view",
+            "TipoPalabraIngles": "prefix",
+            "TipoPalabraEsp": "prefijo",
+            "EjemploIngles": "preview",
+            "EjemploEsp": "vista previa"
+        },
+        {
+            "IdAffixes": 41,
+            "PalabraIngles": "dis",
+            "TraduccionEsp": "connect",
+            "TipoPalabraIngles": "prefix",
+            "TipoPalabraEsp": "prefijo",
+            "EjemploIngles": "disconnect",
+            "EjemploEsp": "desconectar"
+        },
+        {
+            "IdAffixes": 42,
+            "PalabraIngles": "per",
+            "TraduccionEsp": "form",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "perform",
+            "EjemploEsp": "realizar"
+        },
+        {
+            "IdAffixes": 43,
+            "PalabraIngles": "un",
+            "TraduccionEsp": "cover",
+            "TipoPalabraIngles": "prefix",
+            "TipoPalabraEsp": "prefijo",
+            "EjemploIngles": "uncover",
+            "EjemploEsp": "descubrir"
+        },
+        {
+            "IdAffixes": 44,
+            "PalabraIngles": "employ",
+            "TraduccionEsp": "ee",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "employee",
+            "EjemploEsp": "empleado"
+        },
+        {
+            "IdAffixes": 45,
+            "PalabraIngles": "under",
+            "TraduccionEsp": "stand",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "understand",
+            "EjemploEsp": "entender"
+        },
+        {
+            "IdAffixes": 46,
+            "PalabraIngles": "dis",
+            "TraduccionEsp": "arm",
+            "TipoPalabraIngles": "prefix",
+            "TipoPalabraEsp": "prefijo",
+            "EjemploIngles": "disarm",
+            "EjemploEsp": "desarmar"
+        },
+        {
+            "IdAffixes": 47,
+            "PalabraIngles": "com",
+            "TraduccionEsp": "plete",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "complete",
+            "EjemploEsp": "completo"
+        },
+        {
+            "IdAffixes": 48,
+            "PalabraIngles": "re",
+            "TraduccionEsp": "charge",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "recharge",
+            "EjemploEsp": "recargar"
+        },
+        {
+            "IdAffixes": 49,
+            "PalabraIngles": "un",
+            "TraduccionEsp": "do",
+            "TipoPalabraIngles": "prefix",
+            "TipoPalabraEsp": "prefijo",
+            "EjemploIngles": "undo",
+            "EjemploEsp": "deshacer"
+        },
+        {
+            "IdAffixes": 50,
+            "PalabraIngles": "know",
+            "TraduccionEsp": "ing",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "knowing",
+            "EjemploEsp": "saber"
+        },
+        {
+            "IdAffixes": 51,
+            "PalabraIngles": "fore",
+            "TraduccionEsp": "tell",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "foretell",
+            "EjemploEsp": "predecir"
+        },
+        {
+            "IdAffixes": 52,
+            "PalabraIngles": "un",
+            "TraduccionEsp": "lock",
+            "TipoPalabraIngles": "prefix",
+            "TipoPalabraEsp": "prefijo",
+            "EjemploIngles": "unlock",
+            "EjemploEsp": "desbloquear"
+        },
+        {
+            "IdAffixes": 53,
+            "PalabraIngles": "re",
+            "TraduccionEsp": "build",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "rebuild",
+            "EjemploEsp": "reconstruir"
+        },
+        {
+            "IdAffixes": 54,
+            "PalabraIngles": "dis",
+            "TraduccionEsp": "cover",
+            "TipoPalabraIngles": "prefix",
+            "TipoPalabraEsp": "prefijo",
+            "EjemploIngles": "discover",
+            "EjemploEsp": "descubrir"
+        },
+        {
+            "IdAffixes": 55,
+            "PalabraIngles": "self",
+            "TraduccionEsp": "less",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "selfless",
+            "EjemploEsp": "desinteresado"
+        },
+        {
+            "IdAffixes": 56,
+            "PalabraIngles": "over",
+            "TraduccionEsp": "flow",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "overflow",
+            "EjemploEsp": "desbordar"
+        },
+        {
+            "IdAffixes": 57,
+            "PalabraIngles": "un",
+            "TraduccionEsp": "load",
+            "TipoPalabraIngles": "prefix",
+            "TipoPalabraEsp": "prefijo",
+            "EjemploIngles": "unload",
+            "EjemploEsp": "descargar"
+        },
+        {
+            "IdAffixes": 58,
+            "PalabraIngles": "fore",
+            "TraduccionEsp": "see",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "foresee",
+            "EjemploEsp": "prever"
+        },
+        {
+            "IdAffixes": 59,
+            "PalabraIngles": "re",
+            "TraduccionEsp": "late",
+            "TipoPalabraIngles": "suffix",
+            "TipoPalabraEsp": "sufijo",
+            "EjemploIngles": "relate",
+            "EjemploEsp": "relacionar"
+        },
+        {
+            "IdAffixes": 60,
+            "PalabraIngles": "pre",
+            "TraduccionEsp": "dict",
+            "TipoPalabraIngles": "prefix",
+            "TipoPalabraEsp": "prefijo",
+            "EjemploIngles": "predict",
+            "EjemploEsp": "predecir"
+        }
+    ]
+}

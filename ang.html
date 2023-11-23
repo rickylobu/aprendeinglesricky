@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html ng-app="ejemplosApp">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Aprende Inglés</title>
+
+
+    <!-- Incluir Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Incluir AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+    <!-- Incluir archivo de JavaScript Controller -->
+    <script src="js/appAng.js"></script>
+
+    <!-- Incluir tu archivo de CSS personalizado -->
+    <link rel="stylesheet" type="text/css" href="Css/fondos/index.css">
+    </head>    
+    <body class="fondo-img-body">
+
+        <div class="container fondo-conteiner" ng-controller="mainCtrl">
+            <center>
+                <h1>Aprende Inglés || Learn English</h1>
+                <h4>Anglicisms (anglicismos) en inglés y español</h4>
+                <hr>
+            </center>
+            <!--{{anglisismos | json}}-->
+            <div ng-include="'menu.html'"></div>
+            <div class="row">
+                <div class="col-12">
+                    <justify>
+                        <h2>¿Qué son los anglicismos? || What are Anglicisms?</h2>
+                        <p>
+                            Los anglicismos son palabras o expresiones que provienen del inglés y se incorporan al vocabulario de otros idiomas. 
+                            Este fenómeno lingüístico ocurre debido a la influencia cultural, tecnológica o económica de los países de habla inglesa. 
+                            Los anglicismos pueden adoptar la forma original o adaptarse a las reglas gramaticales y fonéticas del idioma receptor.
+                        </p>
+                        <p>
+                            Anglicisms are words or expressions that originate from English and are incorporated into the vocabulary of other languages. 
+                            This linguistic phenomenon occurs due to the cultural, technological, or economic influence of English-speaking countries. 
+                            Anglicisms can either maintain their original form or adapt to the grammatical and phonetic rules of the receiving language.
+                        </p>
+                        <h3>Ejemplo: || Example</h3>
+                        <p>
+                            <strong>Español:</strong>  "Email"<br>
+                            <strong>Inglés:</strong> "Email"<br>
+                            <strong>Traducción:</strong> "Correo electrónico"<br>
+                            <strong>Explicación:</strong>La palabra "email" en inglés se ha adoptado en español como "correo electrónico". 
+                            Este es un ejemplo de anglicismo, donde la expresión inglesa se utiliza en otro idioma, adaptándose a las normas lingüísticas de ese idioma. 
+                            <strong>The English word "email" has been adopted in Spanish as "correo electrónico." This is an example of an anglicism, where the English expression is used in another language, adapting to the linguistic norms of that language.</strong>
+    
+                        </p>
+                        </jus>
+                </div>
+            </div>
+            
+             <!-- Formulario de búsqueda -->
+        <div class="row">
+            <div class="col-4">
+                Búsqueda Ingles: {{ busqueda.PalabraIngles }}
+                <br>
+                <input type="text" ng-model="busqueda.PalabraIngles" class="form-control" placeholder="Search for word">
+                <br>
+            </div>
+            <div class="col-4">
+                Búsqueda español: {{ busqueda.TraduccionEsp }}
+                <br>
+                <input type="text" ng-model="busqueda.TraduccionEsp" class="form-control"
+                    placeholder="Buscar por palabra">
+                <br>
+            </div>
+            <div class="col-4">
+                Tipo de Palabra:
+                <select ng-model="busqueda.TipoPalabraEsp" class="form-control">
+                    <option value="">Cualquiera</option>
+                    <option value="Sustantivo">Sustantivo</option>
+                    <option value="Verbo">Verbo</option>
+                    <option value="Adjetivo">Adjetivo</option>
+                   
+                </select>
+            </div>
+        </div>
+
+        <!-- Lista de anglisismos -->
+        <div class="container">
+            <h2>angs en inglés y español</h2>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th><a class="puntero" ng-click="cambiarOrden('Idang')">Id-ang</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('PalabraIngles')">Palabra en Inglés</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('TraduccionEsp')">Traducción al Español</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('TipoPalabraIngles')">Tipo de Palabra (Inglés)</a>
+                        </th>
+                        <th><a class="puntero" ng-click="cambiarOrden('TipoPalabraEsp')">Tipo de Palabra (Español)</a>
+                        </th>
+                        <th><a class="puntero" ng-click="cambiarOrden('EjemploIngles')">Ejemplo en Inglés</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('EjemploEsp')">Ejemplo en Español</a></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="ang in anglisismos | filter:busqueda | orderBy:columnaAOrdenar:reverse">
+                        <td>{{ ang.IdAnglicismo }}</td>
+                        <td>{{ ang.PalabraIngles }}</td>
+                        <td>{{ ang.TraduccionEsp }}</td>
+                        <td>{{ ang.TipoPalabraIngles }}</td>
+                        <td>{{ ang.TipoPalabraEsp }}</td>
+                        <td>{{ ang.EjemploIngles }}</td>
+                        <td>{{ ang.EjemploEsp }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+        </div><!-- fin del listadoCtrl -->
+
+    </body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html ng-app="ejemplosApp">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Aprende Inglés</title>
+
+
+    <!-- Incluir Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Incluir angularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+    <!-- Incluir archivo de JavaScript Controller -->
+    <script src="js/affixes.js"></script>
+
+    <!-- Incluir tu archivo de CSS personalizado -->
+    <link rel="stylesheet" type="text/css" href="Css/fondos/index.css">
+</head>
+
+<body class="fondo-img-body">
+
+    <div class="container fondo-conteiner" ng-controller="mainCtrl">
+        <center>
+            <h1>Aprende Inglés || Learn English</h1>
+            <h4>Affixes (Afijos) en inglés y español</h4>
+            <hr>
+        </center>
+        <!--{{afflisismos | json}}-->
+        <div ng-include="'menu.html'"></div>
+        <div class="row">
+            <div class="col-12">
+                <justify>
+                    <h2>¿Qué son los afijos? || What are affixes?</h2>
+                    <p>
+                        Los afijos son partículas que se añaden al inicio, al final o por el medio de una palabra o
+                        lexema para modificar su significado o función. Pueden ser prefijos, sufijos o infijos según su
+                        posición. Por ejemplo, la palabra "desafortunadamente" tiene dos afijos: el prefijo "des-" que
+                        significa "no", y el sufijo "-mente" que convierte un adjetivo en un adverbio. Entonces,
+                        "desafortunadamente" significa hacer algo de una manera que no es afortunada.
+                        Un ejemplo de infijo en inglés es la palabra "abso-bloody-lutely", donde "bloody" es un infijo
+                        que se inserta en la palabra "absolutely" para dar énfasis otro ejemplo sería
+                        "fan-bloody-tastic". En español, los infijos no son tan
+                        comunes como en inglés, pero un ejemplo podría ser el uso de "-ti-" en "chiquitito", donde se
+                        inserta el infijo "-ti-" en la palabra "chiquito" para dar un sentido de ternura o pequeñez.
+                    </p>
+                    <p>
+                        Affixes are 'half words' added to the root of a word to alter its meaning. An affix added to the
+                        front of a word is called a prefix. One added to the back is a suffix. For example, the word
+                        "unhappiness" has two affixes: the prefix "un-" which means "not", and the suffix "-ness" which
+                        turns an adjective into a noun. So "unhappiness" means the state of not being happy.
+                    </p>
+                    <h3>Ejemplo: || Example</h3>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>
+                                <strong>
+                                    Los prefijos se añaden al principio de una palabra para cambiar su significado,
+                                    mientras que los sufijos se añaden al final. Por ejemplo, el prefijo "un-" en inglés
+                                    y "des-" en español se utilizan para indicar la negación o la inversión de algo. Los
+                                    sufijos como "-ful" en inglés y "-oso" en español se utilizan para formar adjetivos
+                                    a partir de sustantivos.
+                                </strong><br>
+                                Prefixes are added to the beginning of a word to chaffe its meaning, while suffixes are
+                                added to the end. For example, the prefix "un-" in English and "des-" in Spanish are
+                                used to indicate the negation or inversion of something. Suffixes such as "-ful" in
+                                English and "-oso" in Spanish are used to form adjectives from nouns.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <center>
+                                <p>
+                                    <strong>Prefixes:</strong> "Prefijos"<br>
+                                </p>
+                            </center>
+                        </div>
+                        <div class="col-6">
+                            <center>
+                                <p>
+                                    <strong>Suffixes:</strong> "Sufijos"<br>
+                                </p>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <p>
+                                <strong>un- (No) + happy = (unhappy or Discontent):</strong><br>
+                                <strong>re- (De nuevo) + do = (redo):</strong><br>
+                                <strong>pre- (Antes) + heat = (preheat):</strong><br>
+                            </p>
+                        </div>
+                        <div class="col-3">
+                            <p>
+                                "in- (infelíz) o "des- (descontento)"<br>
+                                "re- (rehacer)"<br>
+                                "pre- (precalentar)"<br>
+                            </p>
+                        </div>
+
+                        <div class="col-6">
+                            <p>
+                                <strong>-ful (lleno de) + love = (loveful):</strong> "-oso (amoroso)"<br>
+                                <strong>-less (sin) + end = (endless):</strong> "prefijo a ápodo (sin patas) "<br>
+                                <strong>-ness (convierte un adjetivo en un sustantivo que denota calidad o estado) +
+                                    happy = (happiness):</strong> "-dad (felicidad)"<br>
+                            </p>
+                        </div>
+                    </div>
+                </justify>
+            </div>
+        </div>
+
+        <!-- Formulario de búsqueda -->
+        <div class="row">
+            <div class="col-4">
+                Búsqueda Ingles: {{ busqueda.PalabraIngles }}
+                <br>
+                <input type="text" ng-model="busqueda.PalabraIngles" class="form-control" placeholder="Search for word">
+                <br>
+            </div>
+            <div class="col-4">
+                Búsqueda español: {{ busqueda.TraduccionEsp }}
+                <br>
+                <input type="text" ng-model="busqueda.TraduccionEsp" class="form-control"
+                    placeholder="Buscar por palabra">
+                <br>
+            </div>
+            <div class="col-4">
+                Tipo de Palabra:
+                <select ng-model="busqueda.TipoPalabraEsp" class="form-control">
+                    <option value="">Cualquiera</option>
+                    <option value="prefijo">Prefijo</option>
+                    <option value="sufijo">Sufijo</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Lista de afflisismos -->
+        <div class="container">
+            <h2>affs en inglés y español</h2>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th><a class="puntero" ng-click="cambiarOrden('IdAffixes')">Id Affixes</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('PalabraIngles')">Affixes used</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('TraduccionEsp')">conjugated word</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('TipoPalabraIngles')">Tipo de Palabra (Inglés)</a>
+                        </th>
+                        <th><a class="puntero" ng-click="cambiarOrden('TipoPalabraEsp')">Tipo de Palabra (Español)</a>
+                        </th>
+                        <th><a class="puntero" ng-click="cambiarOrden('EjemploIngles')">Ejemplo en Inglés</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('EjemploEsp')">Ejemplo en Español</a></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="aff in affixes | filter:busqueda | orderBy:columnaAOrdenar:reverse">
+                        <td>{{ aff.IdAffixes }}</td>
+                        <td>{{ aff.PalabraIngles }}</td>
+                        <td>{{ aff.TraduccionEsp }}</td>
+                        <td>{{ aff.TipoPalabraIngles }}</td>
+                        <td>{{ aff.TipoPalabraEsp }}</td>
+                        <td>{{ aff.EjemploIngles }}</td>
+                        <td>{{ aff.EjemploEsp }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+    </div><!-- fin del listadoCtrl -->
+
+</body>
+
+</html>

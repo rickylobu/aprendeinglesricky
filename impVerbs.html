@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html ng-app="ejemplosApp">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Aprende Inglés</title>
+
+
+    <!-- Incluir Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Incluir AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+    <!-- Incluir archivo de JavaScript Controller -->
+    <script src="js/impVerbs.js"></script>
+
+    <!-- Incluir tu archivo de CSS personalizado -->
+    <link rel="stylesheet" type="text/css" href="Css/fondos/index.css">
+</head>
+
+<body class="fondo-img-body">
+
+    <div class="container fondo-conteiner" ng-controller="mainCtrl">
+        <center>
+            <h1>Aprende Inglés || Learn English</h1>
+            <h4>Imperative Basic Verbs (Verbos Imperativos Básicos) en inglés y español</h4>
+            <hr>
+        </center>
+
+        <div ng-include="'menu.html'"></div>
+        <div class="row">
+            <div class="col-12">
+                <justify>
+                    <center>
+                        <h3>¿Qué son los Verbos Imperativos Básicos? || What are Imperative Basic Verbs?</h3>
+                    </center>
+                    <p>
+                        Los verbos imperativos se utilizan para dar una orden a la persona a la que se dirige.
+                        Pueden ser parte de una oración imperativa que tenga un sujeto implícito o nombrado,
+                        o pueden usarse por sí solas.<br>Ejemplos de verbos imperativos incluyen Detener, Empujar y
+                        Saltar.
+                    </p>
+                    <p>
+                        Imperative verbs are used to issue a command to the person being addressed.
+                        They can be part of an imperative sentence that has an implied or named subject,
+                        or they can be used on their own.<br>Examples of imperative verbs include Stop, Push, and Jump.
+                    </p>
+                    <center>
+                        <h3>Ejemplos de verbos imperativos: || Examples of imperative verbs:</h3>
+                        <p>
+                            <strong>Try again</strong> "Inténtalo de nuevo."<br>
+                            <strong> Play nicely</strong> "Juega bien"<br>
+                            <strong>Don’t worry</strong> "No te preocupes"<br>
+                            <strong>Ask a friend</strong> "Pregúntele a un amigo"<br>
+                            <strong>Look both ways</strong> "Mire a ambos lados"<br>
+                            <strong>Finish your work:</strong> "Termina tu trabajo"<br>
+                            <strong>Speak up</strong> "Habla alto"<br>
+                        </p>
+                    </center>
+                </justify>
+            </div>
+        </div>
+
+        <!-- Formulario de búsqueda -->
+        <div class="row">
+            <div class="col-6">
+                Búsqueda Ingles: {{ busqueda.PalabraIngles }}
+                <br>
+                <input type="text" ng-model="busqueda.PalabraIngles" class="form-control" placeholder="Search for word">
+                <br>
+            </div>
+            <div class="col-6">
+                Búsqueda español: {{ busqueda.TraduccionEsp }}
+                <br>
+                <input type="text" ng-model="busqueda.TraduccionEsp" class="form-control"
+                    placeholder="Buscar por palabra">
+                <br>
+            </div>
+
+        </div>
+
+        <!-- Lista de verbos -->
+        <div class="container">
+            <h2>verbos en inglés y español</h2>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th><a class="puntero" ng-click="cambiarOrden('IdVerbo')">Id Verbo</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('PalabraIngles')">Palabra en Inglés</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('TraduccionEsp')">Traducción al Español</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('TipoPalabraIngles')">Tipo de Palabra (Inglés)</a>
+                        </th>
+                        <th><a class="puntero" ng-click="cambiarOrden('TipoPalabraEsp')">Tipo de Palabra (Español)</a>
+                        </th>
+                        <th><a class="puntero" ng-click="cambiarOrden('EjemploIngles')">Ejemplo en Inglés</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('EjemploEsp')">Ejemplo en Español</a></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="verbo in impVerbs | filter:busqueda | orderBy:columnaAOrdenar:reverse">
+                        <td>{{ verbo.IdVerbo }}</td>
+                        <td>{{ verbo.PalabraIngles }}</td>
+                        <td>{{ verbo.TraduccionEsp }}</td>
+                        <td>{{ verbo.TipoPalabraIngles }}</td>
+                        <td>{{ verbo.TipoPalabraEsp }}</td>
+                        <td>{{ verbo.EjemploIngles }}</td>
+                        <td>{{ verbo.EjemploEsp }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+    </div><!-- fin del listadoCtrl -->
+
+</body>
+
+</html>

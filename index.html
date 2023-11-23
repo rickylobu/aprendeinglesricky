@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html ng-app="universidadApp">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Aprende Inglés</title>
+
+    <!-- Incluir Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Incluir AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+    <!-- Incluir archivo de JavaScript Controller -->
+    <script src="js/app.js"></script>
+
+    <!-- Incluir tu archivo de CSS personalizado -->
+    <link rel="stylesheet" type="text/css" href="Css/fondos/index.css">
+</head>
+
+<body class="fondo-img-body" ng-controller="listadoCtrl">
+
+    <div class="container fondo-conteiner">
+        <center>
+            <h1>Aprende Inglés || Learn English</h1>
+            <h4>Cognates (Cognados) en inglés y español</h4>
+            <hr>
+        </center>
+        <!--{{cognados | json}}-->
+        <div ng-include="'menu.html'"></div>
+        <div class="row">
+            <div class="col-12">
+                <justify>
+                    <h2>¿Qué son los cognados? || What are cognates?</h2>
+                    <p>
+                        Los cognados son palabras en diferentes idiomas que comparten un origen común y tienen
+                        significados
+                        similares y a menudo ortografías parecidas. Resultan de la evolución histórica de los idiomas y
+                        pueden ser una herramienta valiosa para los aprendices de idiomas, ya que facilitan el
+                        reconocimiento y la comprensión de nuevas palabras.
+                    </p>
+                    <p>
+                        Cognates are words in different languages that share a common origin and have similar meanings
+                        and
+                        often similar spellings. They result from the historical evolution of languages and can be a
+                        valuable tool for language learners, as they make it easier to recognize and understand new
+                        words.
+                    </p>
+                    <h3>Ejemplo: || Example</h3>
+                    <p>
+                        <strong>Español:</strong> "Familiar"<br>
+                        <strong>Inglés:</strong> "Familiar"<br>
+                        <strong>Traducción:</strong> "Familiar"<br>
+                        <strong>Explicación:</strong> En este caso, la palabra "familiar" en inglés y español comparten
+                        un
+                        origen común en latín, lo que la convierte en un cognado. Tienen el mismo significado en ambos
+                        idiomas.
+                        <strong>In this case, the word "familiar" in English and Spanish share a
+                            common origin in Latin, which makes it a cognate. They have the same meaning in both
+                            languages.</strong>
+
+                    </p>
+                    </jus>
+            </div>
+        </div>
+
+        <!-- Formulario de búsqueda -->
+        <div class="row">
+            <div class="col-4">
+                Búsqueda Ingles: {{ busqueda.PalabraIngles }}
+                <br>
+                <input type="text" ng-model="busqueda.PalabraIngles" class="form-control" placeholder="Search for word">
+                <br>
+            </div>
+            <div class="col-4">
+                Búsqueda español: {{ busqueda.TraduccionEsp }}
+                <br>
+                <input type="text" ng-model="busqueda.TraduccionEsp" class="form-control"
+                    placeholder="Buscar por palabra">
+                <br>
+            </div>
+            <div class="col-4">
+                Tipo de Palabra:
+                <select ng-model="busqueda.TipoPalabraEsp" class="form-control">
+                    <option value="">Cualquiera</option>
+                    <option value="Sustantivo">Sustantivo</option>
+                    <option value="Verbo">Verbo</option>
+                    <option value="Adjetivo">Adjetivo</option>
+                    <!-- Agrega más tipos de palabras si es necesario -->
+                </select>
+            </div>
+        </div>
+
+        <!-- Lista de cognados -->
+        <div class="container">
+            <h2>Cognados en inglés y español</h2>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th><a class="puntero" ng-click="cambiarOrden('IdCognado')">Id-cognado</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('PalabraIngles')">Palabra en Inglés</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('TraduccionEsp')">Traducción al Español</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('TipoPalabraIngles')">Tipo de Palabra (Inglés)</a>
+                        </th>
+                        <th><a class="puntero" ng-click="cambiarOrden('TipoPalabraEsp')">Tipo de Palabra (Español)</a>
+                        </th>
+                        <th><a class="puntero" ng-click="cambiarOrden('EjemploIngles')">Ejemplo en Inglés</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('EjemploEsp')">Ejemplo en Español</a></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="cognado in cognados | filter:busqueda | orderBy:columnaAOrdenar:reverse">
+                        <td>{{ cognado.IdCognado }}</td>
+                        <td>{{ cognado.PalabraIngles }}</td>
+                        <td>{{ cognado.TraduccionEsp }}</td>
+                        <td>{{ cognado.TipoPalabraIngles }}</td>
+                        <td>{{ cognado.TipoPalabraEsp }}</td>
+                        <td>{{ cognado.EjemploIngles }}</td>
+                        <td>{{ cognado.EjemploEsp }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

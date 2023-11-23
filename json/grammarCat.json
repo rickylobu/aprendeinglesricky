@@ -1,0 +1,724 @@
+{
+    "grammarCat": [
+        {
+            "IdGrammar": 1,
+            "PalabraIngles": "Smartphone",
+            "TraduccionEsp": "Teléfono inteligente",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "I left my smartphone at home.",
+            "EjemploEsp": "Dejé mi teléfono inteligente en casa."
+        },
+        {
+            "IdGrammar": 2,
+            "PalabraIngles": "Upgrade",
+            "TraduccionEsp": "Mejorar",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "It's time to upgrade your phone.",
+            "EjemploEsp": "Es hora de mejorar tu teléfono."
+        },
+        {
+            "IdGrammar": 3,
+            "PalabraIngles": "Beautiful",
+            "TraduccionEsp": "Hermoso",
+            "TipoPalabraIngles": "Adjective",
+            "TipoPalabraEsp": "Adjetivo",
+            "EjemploIngles": "It's a beautiful day.",
+            "EjemploEsp": "Es un día hermoso."
+        },
+        {
+            "IdGrammar": 4,
+            "PalabraIngles": "Quickly",
+            "TraduccionEsp": "Rápidamente",
+            "TipoPalabraIngles": "Adverb",
+            "TipoPalabraEsp": "Adverbio",
+            "EjemploIngles": "He finished the race quickly.",
+            "EjemploEsp": "Él terminó la carrera rápidamente."
+        },
+        {
+            "IdGrammar": 5,
+            "PalabraIngles": "They",
+            "TraduccionEsp": "Ellos/as",
+            "TipoPalabraIngles": "Pronoun",
+            "TipoPalabraEsp": "Pronombre",
+            "EjemploIngles": "They are going to the party.",
+            "EjemploEsp": "Ellos/as van a la fiesta."
+        },
+        {
+            "IdGrammar": 6,
+            "PalabraIngles": "Under",
+            "TraduccionEsp": "Debajo de",
+            "TipoPalabraIngles": "Preposition",
+            "TipoPalabraEsp": "Preposición",
+            "EjemploIngles": "The cat is hiding under the table.",
+            "EjemploEsp": "El gato se está escondiendo debajo de la mesa."
+        },
+        {
+            "IdGrammar": 7,
+            "PalabraIngles": "And",
+            "TraduccionEsp": "Y",
+            "TipoPalabraIngles": "Conjunction",
+            "TipoPalabraEsp": "Conjunción",
+            "EjemploIngles": "I like tea and coffee.",
+            "EjemploEsp": "Me gusta el té y el café."
+        },
+        {
+            "IdGrammar": 8,
+            "PalabraIngles": "Wow!",
+            "TraduccionEsp": "¡Wow!",
+            "TipoPalabraIngles": "Interjection",
+            "TipoPalabraEsp": "Interjección",
+            "EjemploIngles": "Wow! That was amazing!",
+            "EjemploEsp": "¡Wow! ¡Eso fue increíble!"
+        },
+        {
+            "IdGrammar": 9,
+            "PalabraIngles": "Mountain",
+            "TraduccionEsp": "Montaña",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "The view from the top of the mountain is breathtaking.",
+            "EjemploEsp": "La vista desde la cima de la montaña es impresionante."
+        },
+        {
+            "IdGrammar": 10,
+            "PalabraIngles": "Explore",
+            "TraduccionEsp": "Explorar",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "We want to explore new places this summer.",
+            "EjemploEsp": "Queremos explorar lugares nuevos este verano."
+        },
+        {
+            "IdGrammar": 11,
+            "PalabraIngles": "Curious",
+            "TraduccionEsp": "Curioso",
+            "TipoPalabraIngles": "Adjective",
+            "TipoPalabraEsp": "Adjetivo",
+            "EjemploIngles": "Children are naturally curious about the world around them.",
+            "EjemploEsp": "Los niños son naturalmente curiosos acerca del mundo que les rodea."
+        },
+        {
+            "IdGrammar": 12,
+            "PalabraIngles": "Softly",
+            "TraduccionEsp": "Suavemente",
+            "TipoPalabraIngles": "Adverb",
+            "TipoPalabraEsp": "Adverbio",
+            "EjemploIngles": "The wind blew softly through the trees.",
+            "EjemploEsp": "El viento soplaba suavemente entre los árboles."
+        },
+        {
+            "IdGrammar": 13,
+            "PalabraIngles": "It",
+            "TraduccionEsp": "Eso/Esto",
+            "TipoPalabraIngles": "Pronoun",
+            "TipoPalabraEsp": "Pronombre",
+            "EjemploIngles": "Is it going to rain tomorrow?",
+            "EjemploEsp": "¿Va a llover eso/esto mañana?"
+        },
+        {
+            "IdGrammar": 14,
+            "PalabraIngles": "Behind",
+            "TraduccionEsp": "Detrás de",
+            "TipoPalabraIngles": "Preposition",
+            "TipoPalabraEsp": "Preposición",
+            "EjemploIngles": "The sun sets behind the mountains.",
+            "EjemploEsp": "El sol se pone detrás de las montañas."
+        },
+        {
+            "IdGrammar": 15,
+            "PalabraIngles": "But",
+            "TraduccionEsp": "Pero",
+            "TipoPalabraIngles": "Conjunction",
+            "TipoPalabraEsp": "Conjunción",
+            "EjemploIngles": "I like tea, but I prefer coffee.",
+            "EjemploEsp": "Me gusta el té, pero prefiero el café."
+        },
+        {
+            "IdGrammar": 16,
+            "PalabraIngles": "Ouch!",
+            "TraduccionEsp": "¡Ay!",
+            "TipoPalabraIngles": "Interjection",
+            "TipoPalabraEsp": "Interjección",
+            "EjemploIngles": "Ouch! That hurt.",
+            "EjemploEsp": "¡Ay! Eso dolió."
+        },
+        {
+            "IdGrammar": 17,
+            "PalabraIngles": "Ocean",
+            "TraduccionEsp": "Océano",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "The ocean is vast and mysterious.",
+            "EjemploEsp": "El océano es vasto y misterioso."
+        },
+        {
+            "IdGrammar": 18,
+            "PalabraIngles": "Create",
+            "TraduccionEsp": "Crear",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "Artists often create beautiful masterpieces.",
+            "EjemploEsp": "Los artistas a menudo crean hermosas obras maestras."
+        },
+        {
+            "IdGrammar": 19,
+            "PalabraIngles": "Clever",
+            "TraduccionEsp": "Listo",
+            "TipoPalabraIngles": "Adjective",
+            "TipoPalabraEsp": "Adjetivo",
+            "EjemploIngles": "She's a clever student who excels in math.",
+            "EjemploEsp": "Ella es una estudiante lista que sobresale en matemáticas."
+        },
+        {
+            "IdGrammar": 20,
+            "PalabraIngles": "Slowly",
+            "TraduccionEsp": "Poco a poco",
+            "TipoPalabraIngles": "Adverb",
+            "TipoPalabraEsp": "Adverbio",
+            "EjemploIngles": "The old man walked slowly across the street.",
+            "EjemploEsp": "El anciano caminó poco a poco por la calle."
+        },
+        {
+            "IdGrammar": 21,
+            "PalabraIngles": "It",
+            "TraduccionEsp": "Eso/Esto",
+            "TipoPalabraIngles": "Pronoun",
+            "TipoPalabraEsp": "Pronombre",
+            "EjemploIngles": "Is it going to rain tomorrow?",
+            "EjemploEsp": "¿Va a llover eso/esto mañana?"
+        },
+        {
+            "IdGrammar": 22,
+            "PalabraIngles": "Through",
+            "TraduccionEsp": "A través de",
+            "TipoPalabraIngles": "Preposition",
+            "TipoPalabraEsp": "Preposición",
+            "EjemploIngles": "The train passed through the tunnel.",
+            "EjemploEsp": "El tren pasó a través de el túnel."
+        },
+        {
+            "IdGrammar": 23,
+            "PalabraIngles": "Because",
+            "TraduccionEsp": "Porque",
+            "TipoPalabraIngles": "Conjunction",
+            "TipoPalabraEsp": "Conjunción",
+            "EjemploIngles": "They canceled the picnic because of the rain.",
+            "EjemploEsp": "Cancelaron el picnic porque llovía."
+        },
+        {
+            "IdGrammar": 24,
+            "PalabraIngles": "Well!",
+            "TraduccionEsp": "¡Bien!",
+            "TipoPalabraIngles": "Interjection",
+            "TipoPalabraEsp": "Interjección",
+            "EjemploIngles": "Well! That's a surprise.",
+            "EjemploEsp": "¡Bien! Eso es una sorpresa."
+        },
+        {
+            "IdGrammar": 25,
+            "PalabraIngles": "Garden",
+            "TraduccionEsp": "Jardín",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "They have a beautiful garden with many flowers.",
+            "EjemploEsp": "Tienen un hermoso jardín con muchas flores."
+        },
+        {
+            "IdGrammar": 26,
+            "PalabraIngles": "Discover",
+            "TraduccionEsp": "Descubrir",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "Scientists often discover new planets.",
+            "EjemploEsp": "Los científicos a menudo descubren nuevos planetas."
+        },
+        {
+            "IdGrammar": 27,
+            "PalabraIngles": "Happy",
+            "TraduccionEsp": "Feliz",
+            "TipoPalabraIngles": "Adjective",
+            "TipoPalabraEsp": "Adjetivo",
+            "EjemploIngles": "I feel happy when I'm with my friends.",
+            "EjemploEsp": "Me siento feliz cuando estoy con mis amigos."
+        },
+        {
+            "IdGrammar": 28,
+            "PalabraIngles": "Always",
+            "TraduccionEsp": "Siempre",
+            "TipoPalabraIngles": "Adverb",
+            "TipoPalabraEsp": "Adverbio",
+            "EjemploIngles": "She's always on time for class.",
+            "EjemploEsp": "Ella siempre llega a tiempo a clase."
+        },
+        {
+            "IdGrammar": 29,
+            "PalabraIngles": "They",
+            "TraduccionEsp": "Ellos/as",
+            "TipoPalabraIngles": "Pronoun",
+            "TipoPalabraEsp": "Pronombre",
+            "EjemploIngles": "They are coming to the party.",
+            "EjemploEsp": "Ellos/as van a la fiesta."
+        },
+        {
+            "IdGrammar": 30,
+            "PalabraIngles": "Above",
+            "TraduccionEsp": "Encima de",
+            "TipoPalabraIngles": "Preposition",
+            "TipoPalabraEsp": "Preposición",
+            "EjemploIngles": "The sun is above the clouds.",
+            "EjemploEsp": "El sol está encima de las nubes."
+        },
+        {
+            "IdGrammar": 31,
+            "PalabraIngles": "Or",
+            "TraduccionEsp": "O",
+            "TipoPalabraIngles": "Conjunction",
+            "TipoPalabraEsp": "Conjunción",
+            "EjemploIngles": "You can have tea or coffee.",
+            "EjemploEsp": "Puedes tomar té o café."
+        },
+        {
+            "IdGrammar": 32,
+            "PalabraIngles": "Oh!",
+            "TraduccionEsp": "¡Oh!",
+            "TipoPalabraIngles": "Interjection",
+            "TipoPalabraEsp": "Interjección",
+            "EjemploIngles": "Oh! I didn't see you there.",
+            "EjemploEsp": "¡Oh! No te vi allí."
+        },
+        {
+            "IdGrammar": 33,
+            "PalabraIngles": "Star",
+            "TraduccionEsp": "Estrella",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "The starry night was beautiful.",
+            "EjemploEsp": "La noche estrellada era hermosa."
+        },
+        {
+            "IdGrammar": 34,
+            "PalabraIngles": "Learn",
+            "TraduccionEsp": "Aprender",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "We learn something new every day.",
+            "EjemploEsp": "Aprendemos algo nuevo cada día."
+        },
+        {
+            "IdGrammar": 35,
+            "PalabraIngles": "Creative",
+            "TraduccionEsp": "Creativo",
+            "TipoPalabraIngles": "Adjective",
+            "TipoPalabraEsp": "Adjetivo",
+            "EjemploIngles": "She's a creative artist who paints with passion.",
+            "EjemploEsp": "Ella es una artista creativa que pinta con pasión."
+        },
+        {
+            "IdGrammar": 36,
+            "PalabraIngles": "Carefully",
+            "TraduccionEsp": "Cuidadosamente",
+            "TipoPalabraIngles": "Adverb",
+            "TipoPalabraEsp": "Adverbio",
+            "EjemploIngles": "Please read the instructions carefully before assembling.",
+            "EjemploEsp": "Por favor, lee las instrucciones cuidadosamente antes de armar."
+        },
+        {
+            "IdGrammar": 37,
+            "PalabraIngles": "She",
+            "TraduccionEsp": "Ella",
+            "TipoPalabraIngles": "Pronoun",
+            "TipoPalabraEsp": "Pronombre",
+            "EjemploIngles": "She is the CEO of the company.",
+            "EjemploEsp": "Ella es la directora ejecutiva de la empresa."
+        },
+        {
+            "IdGrammar": 38,
+            "PalabraIngles": "Between",
+            "TraduccionEsp": "Entre",
+            "TipoPalabraIngles": "Preposition",
+            "TipoPalabraEsp": "Preposición",
+            "EjemploIngles": "The cat is between the two cushions.",
+            "EjemploEsp": "El gato está entre los dos cojines."
+        },
+        {
+            "IdGrammar": 39,
+            "PalabraIngles": "Between",
+            "TraduccionEsp": "Entre",
+            "TipoPalabraIngles": "Preposition",
+            "TipoPalabraEsp": "Preposición",
+            "EjemploIngles": "The cat is between the two cushions.",
+            "EjemploEsp": "El gato está entre los dos cojines."
+        },
+        {
+            "IdGrammar": 40,
+            "PalabraIngles": "Or",
+            "TraduccionEsp": "O",
+            "TipoPalabraIngles": "Conjunction",
+            "TipoPalabraEsp": "Conjunción",
+            "EjemploIngles": "You can have tea or coffee.",
+            "EjemploEsp": "Puedes tomar té o café."
+        },
+        {
+            "IdGrammar": 41,
+            "PalabraIngles": "Oops!",
+            "TraduccionEsp": "¡Ups!",
+            "TipoPalabraIngles": "Interjection",
+            "TipoPalabraEsp": "Interjección",
+            "EjemploIngles": "Oops! I dropped my keys.",
+            "EjemploEsp": "¡Ups! Se me cayeron las llaves."
+        },
+        {
+            "IdGrammar": 42,
+            "PalabraIngles": "Moon",
+            "TraduccionEsp": "Luna",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "The moon shines brightly in the night sky.",
+            "EjemploEsp": "La luna brilla intensamente en el cielo nocturno."
+        },
+        {
+            "IdGrammar": 43,
+            "PalabraIngles": "Teach",
+            "TraduccionEsp": "Enseñar",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "Teachers teach students new concepts.",
+            "EjemploEsp": "Los profesores enseñan a los estudiantes nuevos conceptos."
+        },
+        {
+            "IdGrammar": 44,
+            "PalabraIngles": "Exciting",
+            "TraduccionEsp": "Emocionante",
+            "TipoPalabraIngles": "Adjective",
+            "TipoPalabraEsp": "Adjetivo",
+            "EjemploIngles": "The movie was exciting from start to finish.",
+            "EjemploEsp": "La película fue emocionante de principio a fin."
+        },
+        {
+            "IdGrammar": 45,
+            "PalabraIngles": "Slowly",
+            "TraduccionEsp": "Poco a poco",
+            "TipoPalabraIngles": "Adverb",
+            "TipoPalabraEsp": "Adverbio",
+            "EjemploIngles": "The turtle moved slowly across the sand.",
+            "EjemploEsp": "La tortuga se movía poco a poco por la arena."
+        },
+        {
+            "IdGrammar": 46,
+            "PalabraIngles": "It",
+            "TraduccionEsp": "Eso/Esto",
+            "TipoPalabraIngles": "Pronoun",
+            "TipoPalabraEsp": "Pronombre",
+            "EjemploIngles": "Is it going to rain tomorrow?",
+            "EjemploEsp": "¿Va a llover eso/esto mañana?"
+        },
+        {
+            "IdGrammar": 47,
+            "PalabraIngles": "Above",
+            "TraduccionEsp": "Encima de",
+            "TipoPalabraIngles": "Preposition",
+            "TipoPalabraEsp": "Preposición",
+            "EjemploIngles": "The plane flew above the clouds.",
+            "EjemploEsp": "El avión voló encima de las nubes."
+        },
+        {
+            "IdGrammar": 48,
+            "PalabraIngles": "Therefore",
+            "TraduccionEsp": "Por lo tanto",
+            "TipoPalabraIngles": "Conjunction",
+            "TipoPalabraEsp": "Conjunción",
+            "EjemploIngles": "He didn't study, therefore he failed the exam.",
+            "EjemploEsp": "No estudió, por lo tanto, reprobó el examen."
+        },
+        {
+            "IdGrammar": 49,
+            "PalabraIngles": "Oh!",
+            "TraduccionEsp": "¡Oh!",
+            "TipoPalabraIngles": "Interjection",
+            "TipoPalabraEsp": "Interjección",
+            "EjemploIngles": "Oh! I forgot my umbrella.",
+            "EjemploEsp": "¡Oh! Olvidé mi paraguas."
+        },
+        {
+            "IdGrammar": 50,
+            "PalabraIngles": "Mountain",
+            "TraduccionEsp": "Montaña",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "The mountain peak was covered in snow.",
+            "EjemploEsp": "La cima de la montaña estaba cubierta de nieve."
+        },
+        {
+            "IdGrammar": 51,
+            "PalabraIngles": "Invent",
+            "TraduccionEsp": "Inventar",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "Inventors often invent new technologies.",
+            "EjemploEsp": "Los inventores a menudo inventan nuevas tecnologías."
+        },
+        {
+            "IdGrammar": 52,
+            "PalabraIngles": "Colorful",
+            "TraduccionEsp": "Colorido",
+            "TipoPalabraIngles": "Adjective",
+            "TipoPalabraEsp": "Adjetivo",
+            "EjemploIngles": "The garden is full of colorful flowers.",
+            "EjemploEsp": "El jardín está lleno de flores coloridas."
+        },
+        {
+            "IdGrammar": 53,
+            "PalabraIngles": "Quickly",
+            "TraduccionEsp": "Rápidamente",
+            "TipoPalabraIngles": "Adverb",
+            "TipoPalabraEsp": "Adverbio",
+            "EjemploIngles": "She finished her homework quickly and went to bed.",
+            "EjemploEsp": "Terminó su tarea rápidamente y se fue a la cama."
+        },
+        {
+            "IdGrammar": 54,
+            "PalabraIngles": "He",
+            "TraduccionEsp": "Él",
+            "TipoPalabraIngles": "Pronoun",
+            "TipoPalabraEsp": "Pronombre",
+            "EjemploIngles": "He is an excellent musician.",
+            "EjemploEsp": "Él es un excelente músico."
+        },
+        {
+            "IdGrammar": 55,
+            "PalabraIngles": "Under",
+            "TraduccionEsp": "Debajo de",
+            "TipoPalabraIngles": "Preposition",
+            "TipoPalabraEsp": "Preposición",
+            "EjemploIngles": "The cat is hiding under the bed.",
+            "EjemploEsp": "El gato se está escondiendo debajo de la cama."
+        },
+        {
+            "IdGrammar": 56,
+            "PalabraIngles": "So",
+            "TraduccionEsp": "Así que",
+            "TipoPalabraIngles": "Conjunction",
+            "TipoPalabraEsp": "Conjunción",
+            "EjemploIngles": "She studied hard, so she passed the exam.",
+            "EjemploEsp": "Estudió mucho, así que aprobó el examen."
+        },
+        {
+            "IdGrammar": 57,
+            "PalabraIngles": "Oh!",
+            "TraduccionEsp": "¡Oh!",
+            "TipoPalabraIngles": "Interjection",
+            "TipoPalabraEsp": "Interjección",
+            "EjemploIngles": "Oh! I didn't expect to see you here.",
+            "EjemploEsp": "¡Oh! No esperaba verte aquí."
+        },
+        {
+            "IdGrammar": 58,
+            "PalabraIngles": "River",
+            "TraduccionEsp": "Río",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "The river flows through the valley.",
+            "EjemploEsp": "El río fluye a través del valle."
+        },
+        {
+            "IdGrammar": 59,
+            "PalabraIngles": "Explore",
+            "TraduccionEsp": "Explorar",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "We love to explore new places.",
+            "EjemploEsp": "Nos encanta explorar lugares nuevos."
+        },
+        {
+            "IdGrammar": 60,
+            "PalabraIngles": "Mysterious",
+            "TraduccionEsp": "Misterioso",
+            "TipoPalabraIngles": "Adjective",
+            "TipoPalabraEsp": "Adjetivo",
+            "EjemploIngles": "The old house had a mysterious atmosphere.",
+            "EjemploEsp": "La vieja casa tenía una atmósfera misteriosa."
+        },
+        {
+            "IdGrammar": 61,
+            "PalabraIngles": "Quietly",
+            "TraduccionEsp": "Silenciosamente",
+            "TipoPalabraIngles": "Adverb",
+            "TipoPalabraEsp": "Adverbio",
+            "EjemploIngles": "The cat crept quietly across the room.",
+            "EjemploEsp": "El gato se deslizó silenciosamente por la habitación."
+        },
+        {
+            "IdGrammar": 62,
+            "PalabraIngles": "They",
+            "TraduccionEsp": "Ellos/as",
+            "TipoPalabraIngles": "Pronoun",
+            "TipoPalabraEsp": "Pronombre",
+            "EjemploIngles": "They are planning a surprise party.",
+            "EjemploEsp": "Ellos/as están planeando una fiesta sorpresa."
+        },
+        {
+            "IdGrammar": 63,
+            "PalabraIngles": "Above",
+            "TraduccionEsp": "Encima de",
+            "TipoPalabraIngles": "Preposition",
+            "TipoPalabraEsp": "Preposición",
+            "EjemploIngles": "The bird flew above the clouds.",
+            "EjemploEsp": "El pájaro voló encima de las nubes."
+        },
+        {
+            "IdGrammar": 64,
+            "PalabraIngles": "So",
+            "TraduccionEsp": "Así que",
+            "TipoPalabraIngles": "Conjunction",
+            "TipoPalabraEsp": "Conjunción",
+            "EjemploIngles": "She worked hard, so she achieved her goals.",
+            "EjemploEsp": "Trabajó duro, así que logró sus metas."
+        },
+        {
+            "IdGrammar": 65,
+            "PalabraIngles": "Oops!",
+            "TraduccionEsp": "¡Ups!",
+            "TipoPalabraIngles": "Interjection",
+            "TipoPalabraEsp": "Interjección",
+            "EjemploIngles": "Oops! I spilled my coffee.",
+            "EjemploEsp": "¡Ups! Derramé mi café."
+        },
+        {
+            "IdGrammar": 66,
+            "PalabraIngles": "Moon",
+            "TraduccionEsp": "Luna",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "The full moon illuminated the night.",
+            "EjemploEsp": "La luna llena iluminó la noche."
+        },
+        {
+            "IdGrammar": 67,
+            "PalabraIngles": "Sing",
+            "TraduccionEsp": "Cantar",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "She loves to sing in the shower.",
+            "EjemploEsp": "A ella le encanta cantar en la ducha."
+        },
+        {
+            "IdGrammar": 68,
+            "PalabraIngles": "Happy",
+            "TraduccionEsp": "Feliz",
+            "TipoPalabraIngles": "Adjective",
+            "TipoPalabraEsp": "Adjetivo",
+            "EjemploIngles": "The children were happy to see the clown at the party.",
+            "EjemploEsp": "Los niños estaban felices de ver al payaso en la fiesta."
+        },
+        {
+            "IdGrammar": 69,
+            "PalabraIngles": "Quickly",
+            "TraduccionEsp": "Rápidamente",
+            "TipoPalabraIngles": "Adverb",
+            "TipoPalabraEsp": "Adverbio",
+            "EjemploIngles": "She solved the puzzle quickly and easily.",
+            "EjemploEsp": "Resolvió el rompecabezas rápidamente y fácilmente."
+        },
+        {
+            "IdGrammar": 70,
+            "PalabraIngles": "She",
+            "TraduccionEsp": "Ella",
+            "TipoPalabraIngles": "Pronoun",
+            "TipoPalabraEsp": "Pronombre",
+            "EjemploIngles": "She is a talented artist.",
+            "EjemploEsp": "Ella es una talentosa artista."
+        },
+        {
+            "IdGrammar": 71,
+            "PalabraIngles": "Through",
+            "TraduccionEsp": "A través de",
+            "TipoPalabraIngles": "Preposition",
+            "TipoPalabraEsp": "Preposición",
+            "EjemploIngles": "The sunlight streamed through the window.",
+            "EjemploEsp": "La luz del sol entraba a través de la ventana."
+        },
+        {
+            "IdGrammar": 72,
+            "PalabraIngles": "Therefore",
+            "TraduccionEsp": "Por lo tanto",
+            "TipoPalabraIngles": "Conjunction",
+            "TipoPalabraEsp": "Conjunción",
+            "EjemploIngles": "He forgot his umbrella, therefore he got wet in the rain.",
+            "EjemploEsp": "Olvidó su paraguas, por lo tanto, se mojó en la lluvia."
+        },
+        {
+            "IdGrammar": 73,
+            "PalabraIngles": "Oops!",
+            "TraduccionEsp": "¡Ups!",
+            "TipoPalabraIngles": "Interjection",
+            "TipoPalabraEsp": "Interjección",
+            "EjemploIngles": "Oops! I made a mistake in my calculations.",
+            "EjemploEsp": "¡Ups! Cometí un error en mis cálculos."
+        },
+        {
+            "IdGrammar": 74,
+            "PalabraIngles": "Mountain",
+            "TraduccionEsp": "Montaña",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Climbing the mountain was a challenging adventure.",
+            "EjemploEsp": "Escalar la montaña fue una aventura desafiante."
+        },
+        {
+            "IdGrammar": 75,
+            "PalabraIngles": "Explore",
+            "TraduccionEsp": "Explorar",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "We decided to explore the ancient ruins.",
+            "EjemploEsp": "Decidimos explorar las ruinas antiguas."
+        },
+        {
+            "IdGrammar": 76,
+            "PalabraIngles": "Happy",
+            "TraduccionEsp": "Feliz",
+            "TipoPalabraIngles": "Adjective",
+            "TipoPalabraEsp": "Adjetivo",
+            "EjemploIngles": "The dog wagged its tail, looking happy to see its owner.",
+            "EjemploEsp": "El perro movió la cola, luciendo feliz al ver a su dueño."
+        },
+        {
+            "IdGrammar": 77,
+            "PalabraIngles": "Always",
+            "TraduccionEsp": "Siempre",
+            "TipoPalabraIngles": "Adverb",
+            "TipoPalabraEsp": "Adverbio",
+            "EjemploIngles": "She always wears a smile on her face.",
+            "EjemploEsp": "Ella siempre lleva una sonrisa en su rostro."
+        },
+        {
+            "IdGrammar": 78,
+            "PalabraIngles": "They",
+            "TraduccionEsp": "Ellos/as",
+            "TipoPalabraIngles": "Pronoun",
+            "TipoPalabraEsp": "Pronombre",
+            "EjemploIngles": "They enjoy hiking in the mountains.",
+            "EjemploEsp": "Ellos/as disfrutan de hacer senderismo en las montañas."
+        },
+        {
+            "IdGrammar": 79,
+            "PalabraIngles": "Between",
+            "TraduccionEsp": "Entre",
+            "TipoPalabraIngles": "Preposition",
+            "TipoPalabraEsp": "Preposición",
+            "EjemploIngles": "The squirrel ran between the trees in the forest.",
+            "EjemploEsp": "La ardilla corrió entre</strong los arboles del bosque"
+        },
+        {
+            "IdGrammar": 80,
+            "PalabraIngles": "Oh!",
+            "TraduccionEsp": "¡Oh!",
+            "TipoPalabraIngles": "Interjection",
+            "TipoPalabraEsp": "Interjección",
+            "EjemploIngles": "Oh! I see what you mean now.",
+            "EjemploEsp": "¡Oh! Ahora entiendo a lo que te refieres."
+        }
+    ]
+}

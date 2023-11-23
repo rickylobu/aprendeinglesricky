@@ -1,0 +1,31 @@
+/*.fondo-img{
+    background-image: url('../../img/fondo-ciudad2.gif');
+    background-size:contain;
+}*/
+
+.fondo-img-body{
+    background-image: url('../../img/fondoInglesEspañol1.png');
+    background-size:cover;
+}
+
+.fondo-conteiner{
+    background-color: rgba(37, 37, 37, 0.9);
+    color: azure;
+}
+@keyframes movimiento {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+  }
+  
+  body {
+    margin: 0;
+    width: auto;
+    height:1080px;
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(37, 37, 37, 1);
+    /*background-image: linear-gradient(45deg, #f3ec78, #af4261);*/
+    animation: movimiento 15s infinite linear alternate;
+  }
+  

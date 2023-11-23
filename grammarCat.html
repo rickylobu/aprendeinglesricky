@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html ng-app="ejemplosApp">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Aprende Inglés</title>
+
+
+    <!-- Incluir Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Incluir angularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+    <!-- Incluir archivo de JavaScript Controller -->
+    <script src="js/grammarCat.js"></script>
+
+    <!-- Incluir tu archivo de CSS personalizado -->
+    <link rel="stylesheet" type="text/css" href="Css/fondos/index.css">
+</head>
+
+<body class="fondo-img-body">
+
+    <div class="container fondo-conteiner" ng-controller="mainCtrl">
+        <center>
+            <h1>Aprende Inglés || Learn English</h1>
+            <h4>Grammar categories (Categorias Gramaticales) en inglés y español</h4>
+            <hr>
+        </center>
+        <!--{{afflisismos | json}}-->
+        <div ng-include="'menu.html'"></div>
+        <div class="container mt-5">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Grammar Category</th>
+                  <th>Definition</th>
+                  <th>Definición</th>
+                  <th>Ejemplo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Noun</strong></td>
+                  <td>A word that represents a person, place, thing, or idea.</td>
+                  <td>Una palabra que representa a una persona, lugar, cosa o idea.</td>
+                  <td>She has a lovely <strong>dog</strong>.</td>
+                </tr>
+                <tr>
+                  <td><strong>Verb</strong></td>
+                  <td>A word that expresses an action, occurrence, or state of being.</td>
+                  <td>Una palabra que expresa una acción, ocurrencia o estado de ser.</td>
+                  <td>They <strong>run</strong> every morning.</td>
+                </tr>
+                <tr>
+                  <td><strong>Adjective</strong></td>
+                  <td>A word that describes or modifies a noun or pronoun.</td>
+                  <td>Una palabra que describe o modifica un sustantivo o pronombre.</td>
+                  <td>It's a <strong>beautiful</strong> day.</td>
+                </tr>
+                <tr>
+                  <td><strong>Adverb</strong></td>
+                  <td>A word that modifies or describes a verb, adjective, or another adverb.</td>
+                  <td>Una palabra que modifica o describe un verbo, adjetivo u otro adverbio.</td>
+                  <td>He speaks <strong>quickly</strong>.</td>
+                </tr>
+                <tr>
+                  <td><strong>Pronoun</strong></td>
+                  <td>A word that takes the place of a noun to avoid repetition.</td>
+                  <td>Una palabra que toma el lugar de un sustantivo para evitar la repetición.</td>
+                  <td><strong>They</strong> are coming to the party.</td>
+                </tr>
+                <tr>
+                  <td><strong>Preposition</strong></td>
+                  <td>A word that shows the relationship of a noun (or pronoun) to another word in the sentence.</td>
+                  <td>Una palabra que muestra la relación de un sustantivo (o pronombre) con otra palabra en la oración.</td>
+                  <td>The book is <strong>on</strong> the table.</td>
+                </tr>
+                <tr>
+                  <td><strong>Conjunction</strong></td>
+                  <td>A word that connects words, phrases, or clauses.</td>
+                  <td>Una palabra que conecta palabras, frases o cláusulas.</td>
+                  <td>We can go to the beach <strong>or</strong> the mountains.</td>
+                </tr>
+                <tr>
+                  <td><strong>Interjection</strong></td>
+                  <td>A word or phrase used to express strong emotion.</td>
+                  <td>Una palabra o frase utilizada para expresar una emoción fuerte.</td>
+                  <td><strong>Wow!</strong> That was amazing!</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+
+        <!-- Formulario de búsqueda -->
+        <div class="row">
+            <div class="col-4">
+                Búsqueda Ingles: {{ busqueda.PalabraIngles }}
+                <br>
+                <input type="text" ng-model="busqueda.PalabraIngles" class="form-control" placeholder="Search for word">
+                <br>
+            </div>
+            <div class="col-4">
+                Búsqueda español: {{ busqueda.TraduccionEsp }}
+                <br>
+                <input type="text" ng-model="busqueda.TraduccionEsp" class="form-control"
+                    placeholder="Buscar por palabra">
+                <br>
+            </div>
+            <div class="col-4">
+                Tipo de Palabra:
+                <select ng-model="busqueda.TipoPalabraEsp" class="form-control">
+                    <option value="">Cualquiera</option>
+                    <option value="Sustantivo">Sustantivo</option>
+                    <option value="Verbo">Verbo</option>
+                    <option value="Adjetivo">Adjetivo</option>
+                    <option value="Adverbio">Adverbio</option>
+                    <option value="Pronombre">Pronombre</option>
+                    <option value="Preposición">Preposición</option>
+                    <option value="Conjunción">Conjunción</option>
+                    <option value="Interjección">Interjección</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Lista de afflisismos -->
+        <div class="container">
+            <h2>affs en inglés y español</h2>
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th><a class="puntero" ng-click="cambiarOrden('IdGrammar')">IdGrammar</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('PalabraIngles')">Palabra Ingles</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('TraduccionEsp')">Palabra Español</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('TipoPalabraIngles')">Tipo de Palabra (Inglés)</a>
+                        </th>
+                        <th><a class="puntero" ng-click="cambiarOrden('TipoPalabraEsp')">Tipo de Palabra (Español)</a>
+                        </th>
+                        <th><a class="puntero" ng-click="cambiarOrden('EjemploIngles')">Ejemplo en Inglés</a></th>
+                        <th><a class="puntero" ng-click="cambiarOrden('EjemploEsp')">Ejemplo en Español</a></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="grammar in grammarCat | filter:busqueda | orderBy:columnaAOrdenar:reverse">
+                        <td>{{ grammar.IdGrammar }}</td>
+                        <td>{{ grammar.PalabraIngles }}</td>
+                        <td>{{ grammar.TraduccionEsp }}</td>
+                        <td>{{ grammar.TipoPalabraIngles }}</td>
+                        <td>{{ grammar.TipoPalabraEsp }}</td>
+                        <td>{{ grammar.EjemploIngles }}</td>
+                        <td>{{ grammar.EjemploEsp }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+    </div><!-- fin del listadoCtrl -->
+
+</body>
+
+</html>

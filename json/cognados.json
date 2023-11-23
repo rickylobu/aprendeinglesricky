@@ -1,0 +1,544 @@
+{
+    "cognados": [
+        {
+            "IdCognado": 1,
+            "PalabraIngles": "Smartphone",
+            "TraduccionEsp": "Teléfono inteligente",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "I left my smartphone at home.",
+            "EjemploEsp": "Dejé mi teléfono inteligente en casa."
+        },
+        {
+            "IdCognado": 2,
+            "PalabraIngles": "Email",
+            "TraduccionEsp": "Correo electrónico",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "I'll send you an email with the details.",
+            "EjemploEsp": "Te enviaré un correo electrónico con los detalles."
+        },
+        {
+            "IdCognado": 3,
+            "PalabraIngles": "Feedback",
+            "TraduccionEsp": "Retroalimentación",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "I appreciate your feedback on the project.",
+            "EjemploEsp": "Aprecio tu retroalimentación sobre el proyecto."
+        },
+        {
+            "IdCognado": 4,
+            "PalabraIngles": "Update",
+            "TraduccionEsp": "Actualizar",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "Make sure to update your software regularly.",
+            "EjemploEsp": "Asegúrate de actualizar tu software regularmente."
+        },
+        {
+            "IdCognado": 5,
+            "PalabraIngles": "Workshop",
+            "TraduccionEsp": "Taller",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "I attended a photography workshop last weekend.",
+            "EjemploEsp": "Asistí a un taller de fotografía el fin de semana pasado."
+        },
+        {
+            "IdCognado": 6,
+            "PalabraIngles": "Showcase",
+            "TraduccionEsp": "Mostrar",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "The event will showcase new products.",
+            "EjemploEsp": "El evento mostrará nuevos productos."
+        },
+        {
+            "IdCognado": 7,
+            "PalabraIngles": "Deadline",
+            "TraduccionEsp": "Fecha límite",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "We need to meet the deadline for the project.",
+            "EjemploEsp": "Debemos cumplir con la fecha límite del proyecto."
+        },
+        {
+            "IdCognado": 8,
+            "PalabraIngles": "Interview",
+            "TraduccionEsp": "Entrevista",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "She has an interview for the job tomorrow.",
+            "EjemploEsp": "Ella tiene una entrevista para el trabajo mañana."
+        },
+        {
+            "IdCognado": 9,
+            "PalabraIngles": "Networking",
+            "TraduccionEsp": "Redes sociales",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Building a strong networking presence is essential.",
+            "EjemploEsp": "Construir una fuerte presencia en redes sociales es esencial."
+        },
+        {
+            "IdCognado": 10,
+            "PalabraIngles": "Download",
+            "TraduccionEsp": "Descargar",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "You can download the file from the website.",
+            "EjemploEsp": "Puedes descargar el archivo desde el sitio web."
+        },
+        {
+            "IdCognado": 11,
+            "PalabraIngles": "Hashtag",
+            "TraduccionEsp": "Etiqueta",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Use the hashtag to join the conversation.",
+            "EjemploEsp": "Usa la etiqueta para unirte a la conversación."
+        },
+        {
+            "IdCognado": 12,
+            "PalabraIngles": "Feedback",
+            "TraduccionEsp": "Retroalimentación",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Provide feedback on the new website design.",
+            "EjemploEsp": "Proporciona retroalimentación sobre el nuevo diseño del sitio web."
+        },
+        {
+            "IdCognado": 13,
+            "PalabraIngles": "Upgrade",
+            "TraduccionEsp": "Mejorar",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "It's time to upgrade your phone.",
+            "EjemploEsp": "Es hora de mejorar tu teléfono."
+        },
+        {
+            "IdCognado": 14,
+            "PalabraIngles": "Webinar",
+            "TraduccionEsp": "Seminario web",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Join the webinar to learn more about the topic.",
+            "EjemploEsp": "Únete al seminario web para aprender más sobre el tema."
+        },
+        {
+            "IdCognado": 15,
+            "PalabraIngles": "Check-in",
+            "TraduccionEsp": "Registro",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Complete the check-in process at the hotel.",
+            "EjemploEsp": "Completa el proceso de registro en el hotel."
+        },
+        {
+            "IdCognado": 16,
+            "PalabraIngles": "Like",
+            "TraduccionEsp": "Me gusta",
+            "TipoPalabraIngles": "Noun/Verb",
+            "TipoPalabraEsp": "Sustantivo/Verbo",
+            "EjemploIngles": "I got a lot of likes on my post.",
+            "EjemploEsp": "Obtuve muchos 'me gusta' en mi publicación."
+        },
+        {
+            "IdCognado": 17,
+            "PalabraIngles": "Backup",
+            "TraduccionEsp": "Respaldo",
+            "TipoPalabraIngles": "Noun/Verb",
+            "TipoPalabraEsp": "Sustantivo/Verbo",
+            "EjemploIngles": "Make sure to create a backup of your important files.",
+            "EjemploEsp": "Asegúrate de hacer un respaldo de tus archivos importantes."
+        },
+        {
+            "IdCognado": 18,
+            "PalabraIngles": "Gaming",
+            "TraduccionEsp": "Juegos",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "She enjoys gaming in her free time.",
+            "EjemploEsp": "A ella le gusta jugar juegos en su tiempo libre."
+        },
+        {
+            "IdCognado": 19,
+            "PalabraIngles": "Location",
+            "TraduccionEsp": "Ubicación",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Share your location with friends using the app.",
+            "EjemploEsp": "Comparte tu ubicación con amigos usando la aplicación."
+        },
+        {
+            "IdCognado": 20,
+            "PalabraIngles": "Feedback",
+            "TraduccionEsp": "Comentarios",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "We welcome your feedback on our services.",
+            "EjemploEsp": "Agradecemos tus comentarios sobre nuestros servicios."
+        },
+        {
+            "IdCognado": 21,
+            "PalabraIngles": "Slogan",
+            "TraduccionEsp": "Eslogan",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "The company's slogan is 'Innovation for Tomorrow.'",
+            "EjemploEsp": "El eslogan de la empresa es 'Innovación para el mañana.'"
+        },
+        {
+            "IdCognado": 22,
+            "PalabraIngles": "Blog",
+            "TraduccionEsp": "Blog",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "She writes a fashion blog every week.",
+            "EjemploEsp": "Ella escribe un blog de moda cada semana."
+        },
+        {
+            "IdCognado": 23,
+            "PalabraIngles": "Show",
+            "TraduccionEsp": "Espectáculo",
+            "TipoPalabraIngles": "Noun/Verb",
+            "TipoPalabraEsp": "Sustantivo/Verbo",
+            "EjemploIngles": "The fashion show was impressive.",
+            "EjemploEsp": "El espectáculo de moda fue impresionante."
+        },
+        {
+            "IdCognado": 24,
+            "PalabraIngles": "Update",
+            "TraduccionEsp": "Actualización",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Did you install the latest software update?",
+            "EjemploEsp": "¿Instalaste la última actualización de software?"
+        },
+        {
+            "IdCognado": 25,
+            "PalabraIngles": "Challenge",
+            "TraduccionEsp": "Desafío",
+            "TipoPalabraIngles": "Noun/Verb",
+            "TipoPalabraEsp": "Sustantivo/Verbo",
+            "EjemploIngles": "Completing the marathon was a great challenge.",
+            "EjemploEsp": "Completar el maratón fue un gran desafío."
+        },
+        {
+            "IdCognado": 26,
+            "PalabraIngles": "Share",
+            "TraduccionEsp": "Compartir",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "Feel free to share your thoughts with us.",
+            "EjemploEsp": "Siéntete libre de compartir tus pensamientos con nosotros."
+        },
+        {
+            "IdCognado": 27,
+            "PalabraIngles": "Fashion",
+            "TraduccionEsp": "Moda",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "She works in the fashion industry.",
+            "EjemploEsp": "Ella trabaja en la industria de la moda."
+        },
+        {
+            "IdCognado": 28,
+            "PalabraIngles": "Feedback",
+            "TraduccionEsp": "Opiniones",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "We value your feedback on our customer service.",
+            "EjemploEsp": "Valoramos tus opiniones sobre nuestro servicio al cliente."
+        },
+        {
+            "IdCognado": 29,
+            "PalabraIngles": "Startup",
+            "TraduccionEsp": "Inicio",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Their startup became successful within a year.",
+            "EjemploEsp": "Su inicio tuvo éxito en menos de un año."
+        },
+        {
+            "IdCognado": 30,
+            "PalabraIngles": "Chat",
+            "TraduccionEsp": "Charla",
+            "TipoPalabraIngles": "Noun/Verb",
+            "TipoPalabraEsp": "Sustantivo/Verbo",
+            "EjemploIngles": "Let's have a chat over coffee.",
+            "EjemploEsp": "Tomemos una charla con café."
+        },
+        {
+            "IdCognado": 31,
+            "PalabraIngles": "Vlog",
+            "TraduccionEsp": "Video blog",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "She started a vlog to share her travel experiences.",
+            "EjemploEsp": "Comenzó un video blog para compartir sus experiencias de viaje."
+        },
+        {
+            "IdCognado": 32,
+            "PalabraIngles": "Timeline",
+            "TraduccionEsp": "Línea de tiempo",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Check your timeline for the latest updates.",
+            "EjemploEsp": "Consulta tu línea de tiempo para las últimas actualizaciones."
+        },
+        {
+            "IdCognado": 33,
+            "PalabraIngles": "GPS",
+            "TraduccionEsp": "Sistema de posicionamiento global",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "The GPS helps you navigate through the city.",
+            "EjemploEsp": "El sistema de posicionamiento global te ayuda a navegar por la ciudad."
+        },
+        {
+            "IdCognado": 34,
+            "PalabraIngles": "Stream",
+            "TraduccionEsp": "Transmisión",
+            "TipoPalabraIngles": "Noun/Verb",
+            "TipoPalabraEsp": "Sustantivo/Verbo",
+            "EjemploIngles": "Watch the live stream of the event.",
+            "EjemploEsp": "Mira la transmisión en vivo del evento."
+        },
+        {
+            "IdCognado": 35,
+            "PalabraIngles": "Challenge",
+            "TraduccionEsp": "Desafío",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Taking on a new challenge can be rewarding.",
+            "EjemploEsp": "Aceptar un nuevo desafío puede ser gratificante."
+        },
+        {
+            "IdCognado": 36,
+            "PalabraIngles": "App",
+            "TraduccionEsp": "Aplicación",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Download the app for easy access to information.",
+            "EjemploEsp": "Descarga la aplicación para acceder fácilmente a la información."
+        },
+        {
+            "IdCognado": 37,
+            "PalabraIngles": "Influencer",
+            "TraduccionEsp": "Influenciador",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "She is a popular fashion influencer on social media.",
+            "EjemploEsp": "Ella es una influyente de moda popular en las redes sociales."
+        },
+        {
+            "IdCognado": 38,
+            "PalabraIngles": "Zoom",
+            "TraduccionEsp": "Acercar",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "You can zoom in on the map for a closer look.",
+            "EjemploEsp": "Puedes acercar el mapa para ver más de cerca."
+        },
+        {
+            "IdCognado": 39,
+            "PalabraIngles": "Hobby",
+            "TraduccionEsp": "Pasatiempo",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Reading is one of my favorite hobbies.",
+            "EjemploEsp": "Leer es uno de mis pasatiempos favoritos."
+        },
+        {
+            "IdCognado": 40,
+            "PalabraIngles": "Download",
+            "TraduccionEsp": "Descargar",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "Download the file to your computer for offline access.",
+            "EjemploEsp": "Descarga el archivo a tu computadora para acceder sin conexión."
+        },
+        {
+            "IdCognado": 41,
+            "PalabraIngles": "Sponsor",
+            "TraduccionEsp": "Patrocinador",
+            "TipoPalabraIngles": "Noun/Verb",
+            "TipoPalabraEsp": "Sustantivo/Verbo",
+            "EjemploIngles": "The company became a sponsor of the event.",
+            "EjemploEsp": "La empresa se convirtió en patrocinador del evento."
+        },
+        {
+            "IdCognado": 42,
+            "PalabraIngles": "Trend",
+            "TraduccionEsp": "Tendencia",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Bold colors are a current fashion trend.",
+            "EjemploEsp": "Los colores llamativos son una tendencia de moda actual."
+        },
+        {
+            "IdCognado": 43,
+            "PalabraIngles": "Like",
+            "TraduccionEsp": "Gustar",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "I really like this new song.",
+            "EjemploEsp": "Realmente me gusta esta nueva canción."
+        },
+        {
+            "IdCognado": 44,
+            "PalabraIngles": "Podcast",
+            "TraduccionEsp": "Podcast",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Listen to the latest podcast episode during your commute.",
+            "EjemploEsp": "Escucha el último episodio del podcast durante tu trayecto."
+        },
+        {
+            "IdCognado": 45,
+            "PalabraIngles": "Share",
+            "TraduccionEsp": "Compartir",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "Feel free to share your opinions with the team.",
+            "EjemploEsp": "Siéntete libre de compartir tus opiniones con el equipo."
+        },
+        {
+            "IdCognado": 46,
+            "PalabraIngles": "Flashmob",
+            "TraduccionEsp": "Flashmob",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "They organized a flashmob in the city center.",
+            "EjemploEsp": "Organizaron un flashmob en el centro de la ciudad."
+        },
+        {
+            "IdCognado": 47,
+            "PalabraIngles": "Delete",
+            "TraduccionEsp": "Eliminar",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "You can delete unwanted files from your computer.",
+            "EjemploEsp": "Puedes eliminar archivos no deseados de tu computadora."
+        },
+        {
+            "IdCognado": 48,
+            "PalabraIngles": "Web",
+            "TraduccionEsp": "Sitio web",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Visit our web for more information.",
+            "EjemploEsp": "Visita nuestro sitio web para obtener más información."
+        },
+        {
+            "IdCognado": 49,
+            "PalabraIngles": "Update",
+            "TraduccionEsp": "Actualizar",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "It's important to update your software regularly.",
+            "EjemploEsp": "Es importante actualizar tu software regularmente."
+        },
+        {
+            "IdCognado": 50,
+            "PalabraIngles": "Viral",
+            "TraduccionEsp": "Viral",
+            "TipoPalabraIngles": "Adjective",
+            "TipoPalabraEsp": "Adjetivo",
+            "EjemploIngles": "The video went viral on social media.",
+            "EjemploEsp": "El video se volvió viral en las redes sociales."
+        },
+        {
+            "IdCognado": 51,
+            "PalabraIngles": "Tag",
+            "TraduccionEsp": "Etiqueta",
+            "TipoPalabraIngles": "Noun/Verb",
+            "TipoPalabraEsp": "Sustantivo/Verbo",
+            "EjemploIngles": "Add a tag to categorize your photos.",
+            "EjemploEsp": "Añade una etiqueta para categorizar tus fotos."
+        },
+        {
+            "IdCognado": 52,
+            "PalabraIngles": "Hack",
+            "TraduccionEsp": "Truco",
+            "TipoPalabraIngles": "Noun/Verb",
+            "TipoPalabraEsp": "Sustantivo/Verbo",
+            "EjemploIngles": "Use this hack to make your daily routine more efficient.",
+            "EjemploEsp": "Utiliza este truco para hacer tu rutina diaria más eficiente."
+        },
+        {
+            "IdCognado": 53,
+            "PalabraIngles": "Story",
+            "TraduccionEsp": "Historia",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "She shared an inspiring story with the audience.",
+            "EjemploEsp": "Compartió una historia inspiradora con la audiencia."
+        },
+        {
+            "IdCognado": 54,
+            "PalabraIngles": "Playlist",
+            "TraduccionEsp": "Lista de reproducción",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Create a playlist for your workout sessions.",
+            "EjemploEsp": "Crea una lista de reproducción para tus sesiones de entrenamiento."
+        },
+        {
+            "IdCognado": 55,
+            "PalabraIngles": "Swipe",
+            "TraduccionEsp": "Deslizar",
+            "TipoPalabraIngles": "Verb",
+            "TipoPalabraEsp": "Verbo",
+            "EjemploIngles": "Swipe right to like a profile on the dating app.",
+            "EjemploEsp": "Desliza hacia la derecha para dar like a un perfil en la aplicación de citas."
+        },
+        {
+            "IdCognado": 56,
+            "PalabraIngles": "Upgrade",
+            "TraduccionEsp": "Mejora",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "The new model comes with an upgrade in features.",
+            "EjemploEsp": "El nuevo modelo viene con una mejora en las características."
+        },
+        {
+            "IdCognado": 57,
+            "PalabraIngles": "Event",
+            "TraduccionEsp": "Evento",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "The concert is a highly anticipated event.",
+            "EjemploEsp": "El concierto es un evento muy esperado."
+        },
+        {
+            "IdCognado": 58,
+            "PalabraIngles": "Backup",
+            "TraduccionEsp": "Respaldo",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Create a backup of your important documents.",
+            "EjemploEsp": "Haz un respaldo de tus documentos importantes."
+        },
+        {
+            "IdCognado": 59,
+            "PalabraIngles": "Tutorial",
+            "TraduccionEsp": "Tutorial",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Watch the tutorial to learn how to use the software.",
+            "EjemploEsp": "Mira el tutorial para aprender a usar el software."
+        },
+        {
+            "IdCognado": 60,
+            "PalabraIngles": "Deadline",
+            "TraduccionEsp": "Fecha límite",
+            "TipoPalabraIngles": "Noun",
+            "TipoPalabraEsp": "Sustantivo",
+            "EjemploIngles": "Submit your project before the deadline.",
+            "EjemploEsp": "Entrega tu proyecto antes de la fecha límite."
+        }
+    ]
+}

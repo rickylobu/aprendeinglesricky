@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html ng-app="ejemplosApp">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Aprende Inglés</title>
+
+
+    <!-- Incluir Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Incluir AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+    <!-- Incluir archivo de JavaScript Controller -->
+    <script src="js/appAng.js"></script>
+
+    <!-- Incluir tu archivo de CSS personalizado -->
+    <link rel="stylesheet" type="text/css" href="Css/fondos/index.css">
+</head>
+
+<body class="fondo-img-body">
+    <div class="container fondo-conteiner" ng-controller="mainCtrl">
+        <center>
+            <h1>Learn English || Aprende Inglés</h1>
+            <h4>Present Tenses and Gerund || Tiempos en Presente y Gerundio</h4>
+            <hr>
+        </center>
+        <div ng-include="'menu.html'"></div>
+        <div class="container mt-3">
+            <h1 class="mb-4">Present Tenses - Tiempos del Presente</h1>
+            <div class="col-md-12">
+                <p>
+                    Los tiempos presentes en inglés se utilizan para expresar acciones que suceden en este momento o
+                    verdades generales.
+                </p>
+            </div>
+            <div class="col-md-12">
+                <p>
+                    The present tenses in English are used to express actions happening right now or general truths.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Present Simple - Presente Simple</h2>
+                    <p>Used for habits and routines.</p>
+                    <p><strong>Example:</strong> I walk to school every day. - Voy a la escuela todos los días.</p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Present Continuous - Presente Continuo</h2>
+                    <p>Used for actions happening at the moment.</p>
+                    <p><strong>Example:</strong> She is studying for her exam. - Ella está estudiando para su examen.
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h2>Present Perfect - Presente Perfecto</h2>
+                    <p>Used for actions completed in the recent past.</p>
+                    <p><strong>Example:</strong> They have already finished their lunch. - Ya han terminado su almuerzo.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Gerund - Gerundio</h2>
+                    <p>The gerund is the -ing form of a verb and is used as a noun.</p>
+                    <ul>
+                        <li><strong>Function - Función:</strong> Used as the subject or object of a sentence.
+                            <br><strong>Example:</strong> Swimming (subject) is my favorite activity.
+                            - Nadar (sujeto) es mi actividad favorita.
+                        </li>
+                        <li><strong>After Prepositions - Después de preposiciones:</strong> Used after prepositions.
+                            <br><strong>Example:</strong> She is good at dancing. - Ella es buena bailando.
+                        </li>
+                        <li><strong>After Certain Verbs - Después de ciertos verbos:</strong> Used after certain verbs.
+                            <br><strong>Example:</strong> I enjoy reading novels. - Disfruto leyendo novelas.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
