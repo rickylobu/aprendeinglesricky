@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html ng-app="ejemplosApp">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Aprende Inglés</title>
+
+
+    <!-- Incluir Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Incluir angularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+    <!-- Incluir tu archivo de CSS personalizado -->
+    <link rel="stylesheet" type="text/css" href="Css/fondos/index.css">
+
+    <!-- Incluir archivo de JavaScript Controller -->
+    <script src="js/affixes.js"></script>
+</head>
+
+<body class="fondo-img-body">
+
+    <div class="container fondo-conteiner" ng-controller="mainCtrl">
+        <center>
+            <h1>Aprende Inglés || Learn English</h1>
+            <h4>Explanation and Passive voice</h4>
+            <hr>
+        </center>
+        <div ng-include="'menu.html'"></div>
+        <div class="row">
+            <div class="col-12">
+                <justify>
+                    <h2>¿Qué es la voz pasiva? || What are a passive voice?</h2>
+                    <p>
+                        La explicación es el acto de hacer algo claro o comprensible. Cuando se utiliza la voz pasiva,
+                        el foco se desplaza del autor de la acción a la acción misma. Es como poner el foco en lo que
+                        pasó en lugar de en quién lo hizo.
+                    </p>
+                    <p>
+                        Explanation is the act of making something clear or understandable. When using the passive
+                        voice, the focus is shifted from the doer of the action to the action itself. It's like putting
+                        the spotlight on what happened rather than who did it.
+                    </p>
+                    <h3>Ejemplo: || Example</h3>
+                    <div class="row">
+                        <div class="col-6">
+                            <center>
+                                <p>
+                                    <strong>Inglés:</strong><br>
+                                </p>
+                            </center>
+                        </div>
+                        <div class="col-6">
+                            <center>
+                                <p>
+                                    <strong>Español:</strong><br>
+                                </p>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <p>
+                                Active Voice:<br>
+                                The chef prepared a delicious meal.<br>
+                                Passive Voice:<br>
+                                A delicious meal was prepared by the chef.<br>
+                                Active Voice:<br>
+                                The team completed the project ahead of schedule.<br>
+                                Passive Voice:<br>
+                                The project was completed ahead of schedule by the team.<br>
+                                Active Voice:<br>
+                                They built a new bridge over the river.<br>
+                                Passive Voice:<br>
+                                A new bridge was built over the river by them.<br>
+                                Remember, in passive voice constructions, the form of the verb "to be" is used along
+                                with the past participle of the main verb. It's a great tool for creating variety in
+                                your writing and focusing on the action itself.
+
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <p>
+                                Voz activa:<br>
+                                El chef preparó una comida deliciosa.<br>
+                                Voz pasiva:<br>
+                                El chef preparó una comida deliciosa.<br>
+                                Voz activa:<br>
+                                El equipo completó el proyecto antes de lo previsto.<br>
+                                Voz pasiva:<br>
+                                El equipo completó el proyecto antes de lo previsto.<br>
+                                Voz activa:<br>
+                                Construyeron un nuevo puente sobre el río.<br>
+                                Voz pasiva:<br>
+                                Ellos construyeron un nuevo puente sobre el río.<br>
+                                Recuerde, en las construcciones en voz pasiva, la forma del verbo "to be" se usa junto
+                                con el participio pasado del verbo principal. Es una gran herramienta para crear
+                                variedad en tu escritura y centrarte en la acción misma.<br>
+                            </p>
+                        </div>
+                    </div>
+                </justify>
+            </div>
+        </div>
+</body>
+
+</html>
